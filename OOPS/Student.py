@@ -10,7 +10,7 @@ class Student:
 class Subject(Student):
     pass
 
-obj = Student(21,"pythonlobby")
+obj = Student(21,"pythonlearning")
 obj1 = Subject
 
 # calling by object reference of class Student
