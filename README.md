@@ -1,9 +1,9 @@
 # pythoney
 Customarily, we import as follows:
 
-import numpy as np
+# import numpy as np
 
-import pandas as pd
+# import pandas as pd
 Basic data structures in pandas
 Pandas provides two types of classes for handling data:
 
