@@ -195,3 +195,7 @@ plt.style.use('fivethirtyeight')
 fig, ax = plt.subplots()
 ax.barh(group_names, group_data)
 ---------------------------------------------------------------
+fig, ax = plt.subplots()
+ax.barh(group_names, group_data)
+labels = ax.get_xticklabels()
+------------------------------------------------------
