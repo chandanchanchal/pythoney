@@ -182,3 +182,6 @@ data = {'Barton LLC': 109438.50,
 group_data = list(data.values())
 group_names = list(data.keys())
 group_mean = np.mean(group_data)
+-----------------------------------------------------------------------
+fig, ax = plt.subplots()
+----------------------------------------------------------------------
