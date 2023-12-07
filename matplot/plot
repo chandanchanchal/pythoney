@@ -139,3 +139,9 @@ axs[1].plot(xdata, data1)
 axs[1].set_xticks(np.arange(0, 100, 30), ['zero', '30', 'sixty', '90'])
 axs[1].set_yticks([-1.5, 0, 1.5])  # note that we don't need to specify labels
 axs[1].set_title('Manual ticks')
+#########################################################
+fig, ax = plt.subplots(figsize=(5, 2.7), layout='constrained')
+categories = ['turnips', 'rutabaga', 'cucumber', 'pumpkins']
+
+ax.bar(categories, np.random.rand(len(categories)))
+#############################################################
