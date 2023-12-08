@@ -32,5 +32,8 @@ sns.displot(data=tips, x="total_bill", col="time", kde=True)
 sns.catplot(data=tips, kind="swarm", x="day", y="total_bill", hue="smoker")
 #####################################################################################
 sns.catplot(data=tips, kind="violin", x="day", y="total_bill", hue="smoker", split=True)
-###############
+#########################################################################################
+penguins = sns.load_dataset("penguins")
+sns.jointplot(data=penguins, x="flipper_length_mm", y="bill_length_mm", hue="species")
+
 
