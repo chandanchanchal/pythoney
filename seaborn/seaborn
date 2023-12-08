@@ -66,6 +66,10 @@ g.figure.set_size_inches(6.5, 4.5)
 g.ax.margins(.15)
 g.despine(trim=True)
 #######################################################################################################
+#Long-form data
+flights = sns.load_dataset("flights")
+flights.head()
+
 
 
 
