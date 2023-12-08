@@ -74,6 +74,18 @@ sns.relplot(data=flights, x="year", y="passengers", hue="month", kind="line")
 flights_wide = flights.pivot(index="year", columns="month", values="passengers")
 flights_wide.head()
 sns.relplot(data=flights_wide, kind="line")
+#######################################################################################################
+#Fitting different kinds of models
+anscombe = sns.load_dataset("anscombe")
+sns.lmplot(x="x", y="y", data=anscombe.query("dataset == 'I'"),
+           ci=None, scatter_kws={"s": 80});
+----------------------------------------------------------------------
+sns.lmplot(x="x", y="y", data=anscombe.query("dataset == 'II'"),
+           ci=None, scatter_kws={"s": 80});
+------------------------------------------------------------------------
+sns.lmplot(x="x", y="y", data=anscombe.query("dataset == 'II'"),
+           order=2, ci=None, scatter_kws={"s": 80});
+
 
 
 
