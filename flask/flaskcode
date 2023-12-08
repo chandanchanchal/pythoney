@@ -12,3 +12,10 @@ export FLASK_APP=hello
 export FLASK_ENV=development
 flask run
 
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
