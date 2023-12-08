@@ -16,3 +16,11 @@ sns.relplot(
 )
 # we have to call plt show method to render the graph
 plt.show()
+
+###############################################################
+fmri = sns.load_dataset("fmri")
+sns.relplot(
+    data=fmri, kind="line",
+    x="timepoint", y="signal", col="region",
+    hue="event", style="event",
+)
