@@ -24,3 +24,5 @@ sns.relplot(
     x="timepoint", y="signal", col="region",
     hue="event", style="event",
 )
+####################################################################
+sns.lmplot(data=tips, x="total_bill", y="tip", col="time", hue="smoker")
