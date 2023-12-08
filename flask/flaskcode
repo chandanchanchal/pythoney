@@ -44,4 +44,12 @@ h1 {
     padding: 10px;
 }
 
+. . .
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>FlaskBlog</title>
+</head>
+. . .
+
 
