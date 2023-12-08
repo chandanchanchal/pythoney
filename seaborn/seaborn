@@ -69,6 +69,7 @@ g.despine(trim=True)
 #Long-form data
 flights = sns.load_dataset("flights")
 flights.head()
+sns.relplot(data=flights, x="year", y="passengers", hue="month", kind="line")
 
 
 
