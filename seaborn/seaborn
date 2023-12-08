@@ -35,5 +35,9 @@ sns.catplot(data=tips, kind="violin", x="day", y="total_bill", hue="smoker", spl
 #########################################################################################
 penguins = sns.load_dataset("penguins")
 sns.jointplot(data=penguins, x="flipper_length_mm", y="bill_length_mm", hue="species")
+##########################################################################################
+#The other, pairplot(), takes a broader view: it shows joint and marginal distributions for all pairwise relationships and for each variable, respectively:
+sns.pairplot(data=penguins, hue="species")
+
 
 
