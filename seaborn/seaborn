@@ -28,3 +28,6 @@ sns.relplot(
 sns.lmplot(data=tips, x="total_bill", y="tip", col="time", hue="smoker")
 ###########################################################################
 sns.displot(data=tips, x="total_bill", col="time", kde=True)
+#################################################################
+sns.catplot(data=tips, kind="swarm", x="day", y="total_bill", hue="smoker")
+
