@@ -38,6 +38,16 @@ sns.jointplot(data=penguins, x="flipper_length_mm", y="bill_length_mm", hue="spe
 ##########################################################################################
 #The other, pairplot(), takes a broader view: it shows joint and marginal distributions for all pairwise relationships and for each variable, respectively:
 sns.pairplot(data=penguins, hue="species")
+################################################################################################
+#These tools work by combining axes-level plotting functions with objects that manage the layout of the figure, linking the structure of a dataset to a grid of axes. 
+#Both elements are part of the public API, and you can use them directly to create complex figures with only a few more lines of code:
+g = sns.PairGrid(penguins, hue="species", corner=True)
+g.map_lower(sns.kdeplot, hue=None, levels=5, color=".2")
+g.map_lower(sns.scatterplot, marker="+")
+g.map_diag(sns.histplot, element="step", linewidth=0, kde=True)
+g.add_legend(frameon=True)
+g.legend.set_bbox_to_anchor((.61, .6))
+
 
 
 
