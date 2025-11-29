@@ -128,3 +128,17 @@ from delta.tables import *
 
 deltaTable = DeltaTable.forName(spark, "main.default.people_10m")
 deltaTable.optimize().executeCompaction()
+
+
+
+from delta.tables import *
+
+deltaTable = DeltaTable.forName(spark, "main.default.people_10m")
+deltaTable.optimize().executeZOrderBy("gender")
+
+
+
+from delta.tables import *
+
+deltaTable = DeltaTable.forName(spark, "main.default.people_10m")
+deltaTable.vacuum()
