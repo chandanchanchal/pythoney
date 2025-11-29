@@ -122,3 +122,9 @@ deltaHistory = deltaTable.history()
 display(deltaHistory.where("version == 0"))
 # Or:
 display(deltaHistory.where("timestamp == '2024-05-15T22:43:15.000+00:00'"))
+
+
+from delta.tables import *
+
+deltaTable = DeltaTable.forName(spark, "main.default.people_10m")
+deltaTable.optimize().executeCompaction()
