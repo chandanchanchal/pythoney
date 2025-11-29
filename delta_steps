@@ -106,3 +106,9 @@ deltaTable.delete("birthDate < '1955-01-01'")
 
 # Declare the predicate by using Spark SQL functions.
 deltaTable.delete(col('birthDate') < '1960-01-01')
+
+
+from delta.tables import *
+
+deltaTable = DeltaTable.forName(spark, "main.default.people_10m")
+display(deltaTable.history())
