@@ -1,0 +1,65 @@
+from pyspark.sql.types import StructType, StructField, IntegerType, StringType, TimestampType
+
+schema = StructType([
+  StructField("id", IntegerType(), True),
+  StructField("firstName", StringType(), True),
+  StructField("middleName", StringType(), True),
+  StructField("lastName", StringType(), True),
+  StructField("gender", StringType(), True),
+  StructField("birthDate", TimestampType(), True),
+  StructField("ssn", StringType(), True),
+  StructField("salary", IntegerType(), True)
+])
+
+df = spark.read.format("csv").option("header", True).schema(schema).load("/Volumes/main/default/my-volume/export.csv")
+
+# Create the table if it does not exist. Otherwise, replace the existing table.
+df.writeTo("main.default.people_10m").createOrReplace()
+
+# If you know the table does not already exist, you can call this instead:
+# df.write.saveAsTable("main.default.people_10m")
+
+
+
+
+
+  from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DateType
+from datetime import date
+
+schema = StructType([
+  StructField("id", IntegerType(), True),
+  StructField("firstName", StringType(), True),
+  StructField("middleName", StringType(), True),
+  StructField("lastName", StringType(), True),
+  StructField("gender", StringType(), True),
+  StructField("birthDate", DateType(), True),
+  StructField("ssn", StringType(), True),
+  StructField("salary", IntegerType(), True)
+])
+
+data = [
+  (9999998, 'Billy', 'Tommie', 'Luppitt', 'M', date.fromisoformat('1992-09-17'), '953-38-9452', 55250),
+  (9999999, 'Elias', 'Cyril', 'Leadbetter', 'M', date.fromisoformat('1984-05-22'), '906-51-2137', 48500),
+  (10000000, 'Joshua', 'Chas', 'Broggio', 'M', date.fromisoformat('1968-07-22'), '988-61-6247', 90000),
+  (20000001, 'John', '', 'Doe', 'M', date.fromisoformat('1978-01-14'), '345-67-8901', 55500),
+  (20000002, 'Mary', '', 'Smith', 'F', date.fromisoformat('1982-10-29'), '456-78-9012', 98250),
+  (20000003, 'Jane', '', 'Doe', 'F', date.fromisoformat('1981-06-25'), '567-89-0123', 89900)
+]
+
+people_10m_updates = spark.createDataFrame(data, schema)
+people_10m_updates.createTempView("people_10m_updates")
+
+# ...
+
+from delta.tables import DeltaTable
+
+deltaTable = DeltaTable.forName(spark, 'main.default.people_10m')
+
+(deltaTable.alias("people_10m")
+  .merge(
+    people_10m_updates.alias("people_10m_updates"),
+    "people_10m.id = people_10m_updates.id")
+  .whenMatchedUpdateAll()
+  .whenNotMatchedInsertAll()
+  .execute()
+)
