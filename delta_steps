@@ -19,6 +19,10 @@ df.writeTo("main.default.people_10m").createOrReplace()
 # If you know the table does not already exist, you can call this instead:
 # df.write.saveAsTable("main.default.people_10m")
 
+df.write.mode("append").saveAsTable("main.default.people_10m")
+df.write.mode("overwrite").saveAsTable("main.default.people_10m")
+
+
 
 
 
