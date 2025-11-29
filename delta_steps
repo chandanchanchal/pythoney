@@ -74,3 +74,23 @@ display(people_df)
 
 df.write.mode("append").saveAsTable("main.default.people_10m")
 df.write.mode("overwrite").saveAsTable("main.default.people_10m")
+
+
+
+
+from delta.tables import *
+from pyspark.sql.functions import *
+
+deltaTable = DeltaTable.forName(spark, "main.default.people_10m")
+
+# Declare the predicate by using a SQL-formatted string.
+deltaTable.update(
+  condition = "gender = 'F'",
+  set = { "gender": "'Female'" }
+)
+
+# Declare the predicate by using Spark SQL functions.
+deltaTable.update(
+  condition = col('gender') == 'M',
+  set = { 'gender': lit('Male') }
+)
