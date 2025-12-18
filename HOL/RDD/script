@@ -29,3 +29,20 @@ json_data = '{"name": "Kumar", "age": 39, "city": "New York"}'
 rdd_json = sc.parallelize([json.loads(json_data)])
 
 
+#Creates Empty RDD
+emptyRDD = spark.sparkContext.emptyRDD()
+print(emptyRDD)
+#Creates Empty RDD using parallelize
+rdd2= spark.sparkContext.parallelize([])
+print(rdd2)
+
+#Create Schema
+from pyspark.sql.types import StructType,StructField, StringType
+schema = StructType([
+  StructField('firstname', StringType(), True),
+  StructField('middlename', StringType(), True),
+  StructField('lastname', StringType(), True)
+  ])
+#Create empty DataFrame from empty RDD
+df = spark.createDataFrame(emptyRDD,schema)
+df.printSchema()
