@@ -3,3 +3,29 @@ rddCollect = rdd.collect()
 print("Number of Partitions: "+str(rdd.getNumPartitions()))
 print("Action: First element: "+str(rdd.first()))
 print(rddCollect)
+
+# Create PySpark RDD from Parallelize
+rdd = spark.sparkContext.parallelize([1,2,3,4,5,6])
+print(rdd.collect())
+
+# Create PySpark RDD from Tuple
+data = [("Java", 20000),("Python", 10000),("Scala", 30000)]
+rdd = spark.sparkContext.parallelize(data)
+print(rdd.collect())
+
+# Create RDD from range function
+rddRange = spark.sparkContext.parallelize(range(1, 6))
+
+# Create RDD from anotehr RDD
+rdd = spark.sparkContext.parallelize([1, 2, 3, 4, 5]) 
+new_rdd = rdd.map(lambda x: x * 2)
+
+
+# Import JSON
+import json
+
+# Create RDD from JSON
+json_data = '{"name": "Kumar", "age": 39, "city": "New York"}' 
+rdd_json = sc.parallelize([json.loads(json_data)])
+
+
