@@ -105,3 +105,15 @@ updatedDF = df2.withColumn("OtherInfo",
 
 updatedDF.printSchema()
 updatedDF.show(truncate=False)
+
+
+# Using SQL ArrayType and MapType
+arrayStructureSchema = StructType([
+    StructField('name', StructType([
+       StructField('firstname', StringType(), True),
+       StructField('middlename', StringType(), True),
+       StructField('lastname', StringType(), True)
+       ])),
+       StructField('hobbies', ArrayType(StringType()), True),
+       StructField('properties', MapType(StringType(),StringType()), True)
+    ])
