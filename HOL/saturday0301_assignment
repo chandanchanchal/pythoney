@@ -1,0 +1,285 @@
+Assignment 1: CSV → Bronze Table
+
+Objective: Basic ELT ingestion
+
+Task
+
+Load CSV from DBFS
+
+Create a Delta table
+
+Sample Data (students.csv)
+
+id,name,age,department
+1,Alice,21,CS
+2,Bob,22,IT
+3,Charlie,20,CS
+
+Assignment 2: JSON → Bronze Table
+
+Objective: Load semi-structured data
+
+Sample Data (orders.json)
+
+{"order_id":101,"customer":"A","amount":250}
+{"order_id":102,"customer":"B","amount":300}
+
+
+Task
+
+Read JSON
+
+Store as Delta table
+
+Assignment 3: Schema Inference vs Explicit Schema
+
+Objective: Understand schema control
+
+Sample Data
+
+emp_id,salary,joining_date
+1,50000,2023-01-10
+2,60000,2023-02-15
+
+
+Task
+
+Load once with inferred schema
+
+Load once with explicit schema
+
+Assignment 4: Bronze → Silver (Column Selection)
+
+Objective: Basic transformation
+
+Task
+
+Read Bronze table
+
+Select only required columns
+
+Write Silver table
+
+Assignment 5: Handle Null Values
+
+Sample Data
+
+id,name,score
+1,Alice,85
+2,Bob,
+3,Charlie,90
+
+
+Task
+
+Replace null scores with 0
+
+Store cleaned data
+
+Assignment 6: Remove Duplicates
+
+Sample Data
+
+txn_id,user,amount
+1,A,100
+1,A,100
+2,B,200
+
+
+Task
+
+Remove duplicate rows
+
+Write Silver table
+
+Assignment 7: Filter Invalid Records
+
+Objective: Data quality check
+
+Sample Data
+
+id,age
+1,25
+2,-5
+3,30
+
+
+Task
+
+Remove records where age < 0
+
+Assignment 8: Date Format Standardization
+
+Sample Data
+
+id,order_date
+1,01-02-2024
+2,15-03-2024
+
+
+Task
+
+Convert date to yyyy-MM-dd
+
+Assignment 9: Rename Columns
+
+Objective: Schema standardization
+
+Sample Data
+
+emp_id,emp_name,emp_salary
+1,Alice,50000
+
+
+Task
+
+Rename columns to id, name, salary
+
+Assignment 10: Add Derived Column
+
+Sample Data
+
+id,salary
+1,40000
+2,70000
+
+
+Task
+
+Add column salary_category (High / Low)
+
+Assignment 11: Join Two Bronze Tables
+
+Sample Data
+
+employees.csv
+
+id,name
+1,Alice
+2,Bob
+
+
+departments.csv
+
+id,dept
+1,CS
+2,IT
+
+
+Task
+
+Join both tables
+
+Write Silver table
+
+Assignment 12: ELT Using Spark SQL
+
+Objective: SQL-based ELT
+
+Task
+
+Create temp view
+
+Transform using Spark SQL
+
+Save as Delta table
+
+Assignment 13: Partitioned Delta Table
+
+Sample Data
+
+id,dept,salary
+1,CS,50000
+2,IT,60000
+
+
+Task
+
+Write Delta table partitioned by dept
+
+Assignment 14: Incremental Load (Append Mode)
+
+Objective: ELT pattern
+
+Task
+
+Load initial data
+
+Append new records to same table
+
+Assignment 15: Data Type Casting
+
+Sample Data
+
+id,amount
+1,"1000"
+2,"2000"
+
+
+Task
+
+Convert amount to Integer
+
+Assignment 16: Column Validation Rules
+
+Objective: Preprocessing validation
+
+Task
+
+Ensure salary > 0
+
+Remove invalid records
+
+Assignment 17: Explode Nested JSON
+
+Sample Data
+
+{"order_id":1,"items":["pen","book"]}
+
+
+Task
+
+Explode items into rows
+
+Assignment 18: Basic Aggregation (Silver → Gold)
+
+Sample Data
+
+dept,salary
+CS,50000
+CS,60000
+IT,70000
+
+
+Task
+
+Calculate average salary per department
+
+Assignment 19: Delta Table History
+
+Objective: Delta Lake basics
+
+Task
+
+Update records
+
+View table history using DESCRIBE HISTORY
+
+Assignment 20: End-to-End Mini ELT Pipeline
+
+Objective: Capstone (small)
+
+Pipeline
+
+Ingest CSV → Bronze
+
+Clean & transform → Silver
+
+Aggregate → Gold
+
+Sample Data
+
+id,dept,score
+1,CS,80
+2,CS,90
+3,IT,70
