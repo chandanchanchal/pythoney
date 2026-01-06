@@ -10,3 +10,9 @@ columns = ["emp_id", "name", "dept", "salary"]
 df = spark.createDataFrame(data, columns)
 df.show()
 
+df.write \
+  .format("delta") \
+  .mode("overwrite") \
+  .save("/tmp/employee_delta")
+
+
