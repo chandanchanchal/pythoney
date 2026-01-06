@@ -32,3 +32,13 @@ bad_df.write \
   .option("mergeSchema", "true") \
   .mode("append") \
   .save("/tmp/employee_delta")
+
+from delta.tables import DeltaTable
+
+deltaTable = DeltaTable.forPath(spark, "/tmp/employee_delta")
+
+deltaTable.update(
+    condition="dept = 'IT'",
+    set={"salary": "salary + 5000"}
+)
+
