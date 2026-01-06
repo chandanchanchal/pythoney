@@ -25,3 +25,10 @@ bad_df = spark.createDataFrame(bad_data,
                                ["emp_id", "name", "dept", "salary"])
 
 bad_df.write.format("delta").mode("append").save("/tmp/employee_delta")
+
+
+bad_df.write \
+  .format("delta") \
+  .option("mergeSchema", "true") \
+  .mode("append") \
+  .save("/tmp/employee_delta")
