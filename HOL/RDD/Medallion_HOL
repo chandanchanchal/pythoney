@@ -18,3 +18,7 @@ columns = ["emp_id", "name", "dept", "salary"]
 
 raw_df = spark.createDataFrame(raw_data, columns)
 
+raw_df.write \
+  .format("delta") \
+  .mode("append") \
+  .save("/tmp/delta/bronze/employees")
