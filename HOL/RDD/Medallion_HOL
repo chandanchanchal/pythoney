@@ -22,3 +22,7 @@ raw_df.write \
   .format("delta") \
   .mode("append") \
   .save("/tmp/delta/bronze/employees")
+
+bronze_df = spark.read.format("delta") \
+    .load("/tmp/delta/bronze/employees")
+
