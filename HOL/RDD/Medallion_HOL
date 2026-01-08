@@ -26,3 +26,14 @@ raw_df.write \
 bronze_df = spark.read.format("delta") \
     .load("/tmp/delta/bronze/employees")
 
+from pyspark.sql.functions import col, when
+
+silver_df = bronze_df \
+    .withColumn("salary",
+        when(col("salary").cast("int").isNotNull(),
+             col("salary").cast("int"))
+        .otherwise(None)
+    ) \
+    .filter(col("salary").isNotNull())
+
+
