@@ -3,3 +3,18 @@
 /mnt/delta/gold/employee_metrics
 
 dbutils.fs.mkdirs("/mnt/delta/bronze/employees")
+
+
+###########--------Silver---layer---creation--#################
+
+raw_data = [
+    (1, "Alice", "IT", "70000"),
+    (2, "Bob", "HR", "65000"),
+    (3, "Charlie", "IT", None),
+    (4, "David", "Finance", "Eighty Thousand")
+]
+
+columns = ["emp_id", "name", "dept", "salary"]
+
+raw_df = spark.createDataFrame(raw_data, columns)
+
