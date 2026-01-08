@@ -54,4 +54,10 @@ gold_df = silver_df.groupBy("dept") \
 gold_df.write \
     .format("delta") \
     .mode("overwrite") \
-    .save("/tmp/delta/gold/employee_metrics")  
+    .save("/tmp/delta/gold/employee_metrics") 
+
+spark.read.format("delta") \
+  .option("versionAsOf", 0) \
+  .load("/tmp/delta/bronze/employees") \
+  .show()
+
