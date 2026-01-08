@@ -41,3 +41,16 @@ silver_df.write \
   .mode("overwrite") \
   .save("/tmp/delta/silver/employees")
 
+silver_df = spark.read.format("delta") \
+    .load("/tmp/delta/silver/employees")
+
+gold_df = silver_df.groupBy("dept") \
+    .agg(
+        avg("salary").alias("avg_salary"),
+        count("*").alias("employee_count")
+    )
+
+gold_df.write \
+    .format("delta") \
+    .mode("overwrite") \
+    .save("/tmp/delta/gold/employee_metrics")  
