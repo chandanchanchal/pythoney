@@ -44,6 +44,7 @@ silver_df.write \
 silver_df = spark.read.format("delta") \
     .load("/tmp/delta/silver/employees")
 
+from pyspark.sql.functions import avg, count
 gold_df = silver_df.groupBy("dept") \
     .agg(
         avg("salary").alias("avg_salary"),
