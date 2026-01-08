@@ -36,4 +36,8 @@ silver_df = bronze_df \
     ) \
     .filter(col("salary").isNotNull())
 
+silver_df.write \
+  .format("delta") \
+  .mode("overwrite") \
+  .save("/tmp/delta/silver/employees")
 
