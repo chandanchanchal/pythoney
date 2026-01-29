@@ -133,4 +133,25 @@ with DAG(
         python_callable=read_variable
     )
 
+#######################----Sensors-----#########################################33
+from airflow.sensors.time_sensor import TimeSensor
+from datetime import time
+
+with DAG(
+    dag_id="time_sensor_example",
+    start_date=datetime(2024, 1, 1),
+    schedule="@daily",
+    catchup=False,
+) as dag:
+
+    wait_for_time = TimeSensor(
+        task_id="wait_until_10am",
+        target_time=time(10, 0, 0)
+    )
+
+    after = BashOperator(
+        task_id="after_sensor",
+        bash_command="echo 'Sensor completed'"
+    )
+
 
