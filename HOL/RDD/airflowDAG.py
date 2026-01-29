@@ -1,0 +1,31 @@
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+from datetime import datetime
+
+with DAG(
+    dag_id = "cc_test",
+    start_date = datetime(2024, 1, 1),
+    schedule = "@daily" ,
+    catchup = False,
+) as dag:
+
+   start = BashOperator(
+      task_id = "start",
+      bash_command = "echo 'Task start'"
+   )
+
+   task_a = BashOperator(
+      task_id = "task_a",
+      bash_command = "sleep 5 && echo 'Task A done'"
+   )
+
+   task_b = BashOperator(
+      task_id = "task_b",
+      bash_command = "sleep 5 && echo 'Task B done'"
+   )
+
+   end = BashOperator(
+      task_id = "end",
+      bash_command = "echo 'END'"
+   )
+
