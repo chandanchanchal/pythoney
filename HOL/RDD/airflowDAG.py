@@ -85,3 +85,32 @@ with DAG(
         python_callable=fail_task
     )
 
+#########################################------XComs------------------################################
+
+def push_value(ti):
+    ti.xcom_push(key="number", value=10)
+
+def pull_value(ti):
+    value = ti.xcom_pull(key="number", task_ids="push_task")
+    print(f"Received value: {value}")
+
+with DAG(
+    dag_id="xcom_example",
+    start_date=datetime(2024, 1, 1),
+    schedule="@daily",
+    catchup=False,
+) as dag:
+
+    push_task = PythonOperator(
+        task_id="push_task",
+        python_callable=push_value
+    )
+
+    pull_task = PythonOperator(
+        task_id="pull_task",
+        python_callable=pull_value
+    )
+
+    push_task >> pull_task
+
+
