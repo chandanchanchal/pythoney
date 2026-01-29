@@ -29,3 +29,19 @@ with DAG(
       bash_command = "echo 'END'"
    )
 
+
+############################################################################
+
+with DAG(
+    dag_id = "cc_test",
+    start_date = datetime(2024, 1, 1),
+    schedule = "@hourly" ,
+    catchup = True,
+) as dag:
+
+   task = BashOperator(
+      task_id = "print_date",
+      bash_command = "date"
+   )
+
+
