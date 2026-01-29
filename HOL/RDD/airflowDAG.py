@@ -113,4 +113,24 @@ with DAG(
 
     push_task >> pull_task
 
+###########################################-------Variables--------#########################################
+
+from airflow.models import Variable
+
+def read_variable():
+    env = Variable.get("env")
+    print(f"Running in {env} environment")
+
+with DAG(
+    dag_id="variables_example",
+    start_date=datetime(2024, 1, 1),
+    schedule="@daily",
+    catchup=False,
+) as dag:
+
+    task = PythonOperator(
+        task_id="read_variable",
+        python_callable=read_variable
+    )
+
 
