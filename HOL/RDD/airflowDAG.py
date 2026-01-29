@@ -44,4 +44,21 @@ with DAG(
       bash_command = "date"
    )
 
+#########################---------PTHONOPERATOR-------#######################3
+from airflow.operators.python import PythonOperator
+
+def greet():
+    print("Hello from PythonOperator!")
+
+with DAG(
+    dag_id="python_operator",
+    start_date=datetime(2024, 1, 1),
+    schedule="@daily",
+    catchup=False,
+) as dag:
+
+    python_task = PythonOperator(
+        task_id="greet_task",
+        python_callable=greet
+    )
 
