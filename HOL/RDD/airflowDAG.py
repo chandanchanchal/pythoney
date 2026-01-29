@@ -61,4 +61,27 @@ with DAG(
         task_id="greet_task",
         python_callable=greet
     )
+###########################------Retries & Failure Handling---------############################
+from datetime import timedelta
+
+default_args = {
+    "retries": 2,
+    "retry_delay": timedelta(minutes=1),
+}
+
+def fail_task():
+    raise ValueError("Intentional failure")
+
+with DAG(
+    dag_id="retries_example",
+    start_date=datetime(2024, 1, 1),
+    schedule="@daily",
+    catchup=False,
+    default_args=default_args,
+) as dag:
+
+    failing = PythonOperator(
+        task_id="fail_task",
+        python_callable=fail_task
+    )
 
