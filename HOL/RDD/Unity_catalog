@@ -1,1 +1,3 @@
 show METASTORES;
+CREATE CATALOG retail_catalog;
+https://accounts.azuredatabricks.net
