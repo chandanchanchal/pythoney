@@ -16,3 +16,9 @@ CREATE TABLE security_lab.raw.employees (
   salary DOUBLE,
   ssn STRING
 );
+
+INSERT INTO  security_lab1.raw.employees VALUES 
+(1, 'Alice', 'HR', 80000, '111-22-3333'),
+(2, 'BOB', 'IT', 90000, '222-33-4444'),
+(3, 'Charlie', 'Finance', 70000, '333-44-5555'),
+(4, 'Diana', 'HR', 90000, '444-55-6666')
