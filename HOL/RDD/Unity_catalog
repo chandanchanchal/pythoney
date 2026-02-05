@@ -37,3 +37,8 @@ SET MAsk security_lab1.raw.mask_ssn;
 -- ROW Filtering
 CREATE FUNCTION security_lab1.raw.department_filter(dept STRING)
 RETURN dept = current_user();
+
+ALTER TABLE security_lab1.raw.employees
+SET ROW FILTER security_lab1.raw.department_filter on (department);
+-- below query gives didderent rows for different users
+select * from security_lab1.raw.employees;
