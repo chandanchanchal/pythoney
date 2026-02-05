@@ -1,3 +1,5 @@
 show METASTORES;
 CREATE CATALOG retail_catalog;
 https://accounts.azuredatabricks.net
+
+GRANT USE CATALOG ON CATALOG test_demo TO `test_user`
