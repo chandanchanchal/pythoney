@@ -33,3 +33,7 @@ RETURN
 ALTER TABLE security_lab1.raw.employees
 ALTER COLUMN ssn
 SET MAsk security_lab1.raw.mask_ssn;
+
+-- ROW Filtering
+CREATE FUNCTION security_lab1.raw.department_filter(dept STRING)
+RETURN dept = current_user();
