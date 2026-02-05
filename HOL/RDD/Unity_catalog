@@ -8,3 +8,11 @@ REVOKE SELECT ON  test_demo.raw.test FROM `test_user`
 
 CREATE CATALOG IF NOT EXISTS security_lab;
 CREATE SCHEMA IF NOT EXISTS security_lab.raw;
+
+CREATE TABLE security_lab.raw.employees (
+  emp_id INT,
+  name STRING,
+  department STRING,
+  salary DOUBLE,
+  ssn STRING
+);
