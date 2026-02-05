@@ -5,3 +5,6 @@ https://accounts.azuredatabricks.net
 GRANT USE CATALOG ON CATALOG test_demo TO `test_user`
 GRANT SELECT ON TABLE test_demo.raw.test TO `test_user` 
 REVOKE SELECT ON  test_demo.raw.test FROM `test_user`
+
+CREATE CATALOG IF NOT EXISTS security_lab;
+CREATE SCHEMA IF NOT EXISTS security_lab.raw;
