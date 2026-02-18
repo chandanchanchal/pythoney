@@ -17,6 +17,7 @@ dimensions:
            when o_orderstatus = 'O' then 'Open'
            when o_orderstatus = 'F' then 'fulfilled'
            when o_orderstatus = 'P' then 'Processed'
+          end
        
 measures:
    - name: Average Total Price
