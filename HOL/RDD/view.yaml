@@ -1,31 +1,70 @@
-version 0.1
+version: 0.1
 source: samples.tpch.orders
 
 dimensions:
      - name: Order Date
        expr: o_orderdate
        
+     - name: Order Year
+       expr: DATE_TRUNC('year',o_orderdate)
+       
      - name: Order Priority
        expr: o_orderpriority
-       
-     - name: Order Status
-       expr: o_orderstatus
+
+     - name: Order Key
+       expr: o_orderkey
+
+     - name: Order Stauts
+       expr: o_orderstatus 
        
      - name: Order Status Readable
        expr: >
           case
-           when o_orderstatus = 'O' then 'Open'
-           when o_orderstatus = 'F' then 'fulfilled'
-           when o_orderstatus = 'P' then 'Processed'
-          end
+            when o_orderstatus = 'O' then 'Open'
+            when o_orderstatus = 'F' then 'fulfilled'
+            when o_orderstatus = 'P' then 'Processed'
+          end           
+    
        
 measures:
-   - name: Average Total Price
-     expr: AVG(o_totalPrice)
      
    - name: Total Price
      expr: SUM(o_totalPrice)
      
    - name: Total Orders
      expr: Count( DISTINCT o_totalPrice)
+     
+   - name: Total Orders Current Year
+     expr: Count( DISTINCT o_orderkey)   
+     window:
+        - order: Order Year
+          range: current
+          semiadditive: last
+          
+          
+   - name: Total Orders Last Year
+     expr: Count( DISTINCT o_orderkey)   
+     window:
+        - order: Order Year
+          range: trailing 1 year
+          semiadditive: last
+          
+   - name: Year on Year Growth
+     expr: MEASURE("Total Orders Current Year") - MEASURE("Total Orders Last Year")
+     
+   - name: Year on Year Growth %
+     expr: 100 * ((MEASURE("Total Orders Current Year") - MEASURE("Total Orders Last Year"))/MEASURE("Total Orders Current Year"))
+     
+ 
+
+
+
+
+
+
+
+
+
+
+        
      
