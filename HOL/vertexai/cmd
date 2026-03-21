@@ -1,3 +1,7 @@
+gcloud auth login
+gcloud config set project YOUR_PROJECT_ID
+gcloud config set ai/region us-central1
+
 gcloud services enable \
 aiplatform.googleapis.com \
 discoveryengine.googleapis.com \
