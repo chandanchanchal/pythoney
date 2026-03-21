@@ -1,0 +1,28 @@
+openapi: 3.0.0
+info:
+  title: Claims API
+  version: 1.0.0
+paths:
+  /getClaimStatus:
+    get:
+      summary: Get claim status
+      parameters:
+        - name: claim_id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Claim status response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  claim_id:
+                    type: string
+                  status:
+                    type: string
+                  next_steps:
+                    type: string
