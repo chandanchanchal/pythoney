@@ -8,3 +8,10 @@ discoveryengine.googleapis.com \
 bigquery.googleapis.com \
 storage.googleapis.com \
 run.googleapis.com
+
+
+
+gcloud run deploy claims-api \
+  --source . \
+  --region us-central1 \
+  --allow-unauthenticated
