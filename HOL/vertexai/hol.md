@@ -103,7 +103,9 @@ Use bullet points
 
 ## ✅ Step 7: Test Queries
 
-Try:
+Try: What does premium policy cover?
+How do I file a claim?
+Which policy is cheapest?
 
 ### 🔹 Test 1
 
