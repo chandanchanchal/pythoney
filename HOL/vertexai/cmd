@@ -1,0 +1,6 @@
+gcloud services enable \
+aiplatform.googleapis.com \
+discoveryengine.googleapis.com \
+bigquery.googleapis.com \
+storage.googleapis.com \
+run.googleapis.com
