@@ -1,0 +1,811 @@
+order_id,order_ts,region,channel,category,sku,qty,unit_price,currency,status,campaign,customer_id
+10001,2026-09-01 07:08:47,US,web,home,LM-HOME-175,1,N/A,USD,paid,affiliate,C1032
+10002,2026-09-01 17:12:45,eu ,store,electronics,LM-ELEC-128,1,125.49,USD,paid,affiliate,C1603
+10003,2026-09-01 08:09:13,APAC,web,home,LM-HOME-111,1,170.12,USD,paid,affiliate,C1099
+10004,2026-09-01 23:29:34,US,store,beauty,LM-BEAU-110,3,69.74,USD,paid,,C1300
+10005,2026-09-01 02:02:42,EU,marketplace,sports,LM-SPRT-110,1,142.16,USD,cancelled,retarget,C1887
+10006,2026-09-01 05:23:22,EU,marketplace,beauty,LM-BEAU-189,2,155.66,USD,paid,spring_push,C1623
+10007,2026-09-01 08:59:40,eu ,app,sports,LM-SPRT-187,1,46.33,USD,paid,organic,C1863
+10008,2026-09-01 12:17:04,EU,marketplace,home,LM-HOME-127,1,198.75,USD,paid,affiliate,C1405
+10009,2026-09-01 23:35:34,APAC,store,grocery,LM-GROC-174,1,69.82,USD,paid,affiliate,C1370
+10010,2026-09-01 03:09:40,EU,store,electronics,LM-ELEC-176,3,122.75,USD,paid,spring_push,C1394
+10011,2026-09-01 00:43:46,US,marketplace,grocery,LM-GROC-198,3,66.7,USD,refunded,organic,C1114
+10012,2026-09-01 23:16:32,EU,web,electronics,LM-ELEC-180,2,9.25,USD,cancelled,organic,C1861
+10013,2026-09-01 17:49:59,eu ,web,sports,LM-SPRT-176,1,N/A,USD,paid,organic,C1500
+10014,2026-09-01 18:05:05, us,web,beauty,LM-BEAU-197,1,63.93,USD,paid,,C1784
+10015,2026-09-01 19:27:13,eu ,app,grocery,LM-GROC-191,3,46.73,USD,refunded,organic,C1408
+10016,2026-09-01 03:15:14,US,marketplace,beauty,LM-BEAU-102,2,216.76,USD,paid,,C1567
+10017,2026-09-01 01:14:04,US,marketplace,electronics,LM-ELEC-109,1,24.93,USD,cancelled,,C1243
+10018,2026-09-01 18:36:30,EU,store,grocery,LM-GROC-152,1,133.33,USD,cancelled,retarget,C1096
+10019,2026-09-01 23:03:43,US,web,grocery,LM-GROC-151,1,106.56,USD,paid,organic,C1819
+10020,2026-09-01 04:27:11,APAC,store,electronics,LM-ELEC-131,1,52.53,USD,paid,spring_push,C1453
+10021,2026-09-01 00:05:59,EU,app,sports,LM-SPRT-152,1,20.21,USD,refunded,affiliate,C1492
+10022,2026-09-01 12:16:59, us,marketplace,grocery,LM-GROC-154,1,46.61,USD,paid,,C1677
+10023,2026-09-01 18:47:34,US,marketplace,electronics,LM-ELEC-107,1,77.19,USD,paid,spring_push,C1598
+10024,2026-09-01 02:54:11,US,web,sports,LM-SPRT-186,1,21.67,USD,refunded,retarget,C1413
+10025,2026-09-01 19:05:26,eu ,marketplace,sports,LM-SPRT-133,1,142.52,USD,paid,retarget,C1685
+10026,2026-09-01 20:19:29,APAC,web,electronics,LM-ELEC-101,1,100.12,USD,cancelled,affiliate,C1636
+10027,2026-09-01 08:08:59,APAC,web,home,LM-HOME-131,1,132.96,USD,refunded,organic,C1291
+10028,2026-09-01 16:00:42,eu ,marketplace,sports,LM-SPRT-184,1,150.1,USD,cancelled,spring_push,C1961
+10029,2026-09-01 17:09:17,APAC,app,beauty,LM-BEAU-191,1,214.47,USD,cancelled,organic,C1208
+10030,2026-09-01 02:40:27,APAC,web,beauty,LM-BEAU-100,3,121.6,USD,paid,organic,C1789
+10031,2026-09-01 22:27:35,US,web,beauty,LM-BEAU-109,,180.09,USD,refunded,retarget,C1558
+10032,2026-09-01 04:02:19,APAC,web,beauty,LM-BEAU-145,3,136.41,USD,paid,retarget,C1698
+10033,2026-09-01 19:47:09,EU,app,home,LM-HOME-122,1,189.1,USD,paid,affiliate,C1025
+10034,2026-09-01 07:17:10,US,store,beauty,LM-BEAU-104,2,194.22,USD,cancelled,affiliate,C1227
+10035,2026-09-01 07:01:42,EU,store,grocery,LM-GROC-142,1,79.15,USD,paid,organic,C1885
+10036,2026-09-01 21:53:34,APAC,web,beauty,LM-BEAU-114,1,157.0,USD,paid,organic,C1182
+10037,2026-09-01 11:46:50,APAC,store,beauty,LM-BEAU-177,1,33.6,USD,paid,,C1118
+10038,2026-09-01 13:00:33,eu ,app,sports,LM-SPRT-146,1,67.47,USD,cancelled,affiliate,C1071
+10039,2026-09-01 23:57:19,eu ,marketplace,beauty,LM-BEAU-185,3,81.17,USD,paid,affiliate,C1334
+,2026-09-01 21:24:43,EU,marketplace,beauty,LM-BEAU-151,3,37.97,USD,paid,,C1853
+10041,2026-09-01 19:41:20, us,store,beauty,LM-BEAU-156,1,108.02,USD,refunded,retarget,C1523
+10042,2026-09-01 20:39:21,US,app,electronics,LM-ELEC-186,1,74.2,USD,cancelled,organic,C1230
+10043,2026-09-01 19:54:49,US,store,electronics,LM-ELEC-153,1,19.2,USD,paid,,C1199
+10044,2026-09-01 20:44:00,US,store,grocery,LM-GROC-128,2,101.02,USD,paid,retarget,C1823
+10045,2026-09-01 03:29:08, us,marketplace,sports,LM-SPRT-196,2,20.13,USD,paid,affiliate,C1627
+10046,2026-09-01 14:57:10, us,store,sports,LM-SPRT-133,2,200.78,USD,refunded,retarget,C1860
+10047,2026-09-01 14:04:45,APAC,app,sports,LM-SPRT-134,2,153.59,USD,paid,organic,C1327
+10048,2026-09-01 22:09:45,EU,web,home,LM-HOME-153,1,43.42,USD,paid,affiliate,C1338
+10049,2026-09-01 12:57:49,eu ,web,grocery,LM-GROC-197,1,56.38,USD,paid,,C1389
+10050,2026-09-01 17:47:47,eu ,app,beauty,LM-BEAU-162,1,182.93,USD,paid,retarget,C1279
+10051,2026-09-01 12:46:10, us,app,home,LM-HOME-179,2,86.31,USD,cancelled,,C1027
+10052,2026-09-01 20:27:08, us,app,sports,LM-SPRT-106,3,161.98,USD,paid,organic,C1388
+10053,2026-09-01 08:48:53, us,marketplace,grocery,LM-GROC-110,1,86.63,USD,paid,affiliate,C1019
+10054,2026-09-01 20:02:48,US,app,home,LM-HOME-125,1,60.41,USD,paid,spring_push,C1636
+10055,2026-09-01 06:29:44,APAC,marketplace,electronics,LM-ELEC-121,2,163.48,USD,refunded,,C1621
+10056,2026-09-01 18:01:59,APAC,store,home,LM-HOME-150,1,231.83,USD,paid,retarget,C1077
+10057,2026-09-01 21:38:51,US,web,electronics,LM-ELEC-144,1,169.9,USD,paid,,C1438
+10058,2026-09-01 13:52:31,US,store,home,LM-HOME-146,3,158.41,USD,paid,affiliate,C1724
+10059,2026-09-01 19:51:58,eu ,store,electronics,LM-ELEC-159,3,232.01,USD,paid,affiliate,C1845
+10060,2026-09-01 08:56:28,EU,store,beauty,LM-BEAU-172,1,205.67,USD,paid,,C1684
+10061,2026-09-01 15:13:22,APAC,marketplace,home,LM-HOME-135,2,205.5,USD,paid,,C1718
+10062,2026-09-01 02:15:46, us,store,sports,LM-SPRT-171,1,128.1,USD,paid,retarget,C1707
+10063,2026-09-01 09:14:25,EU,marketplace,grocery,LM-GROC-184,2,192.06,USD,paid,,C1377
+10064,2026-09-01 17:21:22, us,marketplace,sports,LM-SPRT-139,1,107.0,USD,cancelled,organic,C1236
+10065,2026-09-01 22:11:12,EU,store,electronics,LM-ELEC-135,1,36.18,USD,refunded,,C1778
+10066,2026-09-01 07:23:11,APAC,web,beauty,LM-BEAU-190,1,201.25,USD,paid,,C1129
+10067,2026-09-01 20:55:48, us,web,home,LM-HOME-101,3,76.13,USD,paid,,C1291
+10068,2026-09-01 08:55:30,US,web,grocery,LM-GROC-151,1,51.18,USD,paid,affiliate,C1075
+10069,2026-09-01 09:05:15,US,store,home,LM-HOME-177,1,43.04,USD,refunded,,C1809
+10070,2026-09-01 09:55:37, us,marketplace,sports,LM-SPRT-172,2,112.79,USD,paid,,C1061
+,2026-09-01 21:05:10,EU,app,home,LM-HOME-170,1,153.31,USD,paid,spring_push,C1160
+10072,2026-09-01 07:18:45,APAC,store,grocery,LM-GROC-109,3,117.28,USD,paid,retarget,C1946
+10073,2026-09-01 07:41:09,APAC,app,sports,LM-SPRT-109,1,106.92,USD,refunded,spring_push,C1169
+10074,2026-09-01 03:29:44,APAC,store,sports,LM-SPRT-134,3,221.76,USD,paid,,C1552
+10075,2026-09-01 23:20:38,APAC,web,home,LM-HOME-111,3,17.73,USD,paid,retarget,C1984
+10076,2026-09-01 08:36:02,EU,store,sports,LM-SPRT-166,3,228.61,USD,cancelled,affiliate,C1938
+10077,2026-09-01 02:30:22, us,marketplace,sports,LM-SPRT-141,2,155.45,USD,paid,spring_push,C1878
+10078,2026-09-01 17:02:29,US,marketplace,grocery,LM-GROC-132,2,75.22,USD,paid,organic,C1118
+10079,2026-09-01 21:55:34, us,store,grocery,LM-GROC-106,3,199.47,USD,paid,retarget,C1530
+10080,2026-09-01 08:35:08,APAC,store,grocery,LM-GROC-189,2,N/A,USD,paid,affiliate,C1124
+10081,2026-09-01 17:00:35, us,web,sports,LM-SPRT-128,1,172.81,USD,paid,spring_push,C1472
+10082,2026-09-01 16:45:17, us,store,electronics,LM-ELEC-160,2,224.41,USD,paid,retarget,C1467
+10083,2026-09-01 23:56:08,US,marketplace,grocery,LM-GROC-198,1,221.91,USD,refunded,affiliate,C1348
+10084,2026-09-01 23:19:53,eu ,store,sports,LM-SPRT-119,1,198.46,USD,paid,affiliate,C1551
+10085,2026-09-01 14:59:20,EU,app,beauty,LM-BEAU-173,3,185.11,USD,paid,affiliate,C1239
+10086,2026-09-01 22:58:51, us,store,grocery,LM-GROC-184,1,82.16,USD,paid,retarget,C1507
+10087,2026-09-01 03:55:54, us,web,electronics,LM-ELEC-167,3,231.98,USD,paid,affiliate,C1015
+10088,2026-09-01 10:39:44, us,web,grocery,LM-GROC-142,1,25.82,USD,paid,,C1389
+10089,2026-09-01 07:40:43,APAC,app,grocery,LM-GROC-195,3,16.81,USD,paid,spring_push,C1444
+10090,2026-09-01 00:02:20,US,marketplace,home,LM-HOME-145,2,47.01,USD,paid,organic,C1441
+10091,2026-09-01 05:11:05,eu ,store,sports,LM-SPRT-179,2,139.51,USD,paid,retarget,C1509
+10092,2026-09-01 14:16:42,US,store,electronics,LM-ELEC-136,1,115.26,USD,paid,,C1161
+10093,2026-09-01 22:16:29,APAC,app,beauty,LM-BEAU-149,3,77.75,USD,paid,affiliate,C1109
+10094,2026-09-01 09:01:53, us,marketplace,sports,LM-SPRT-101,1,141.57,USD,cancelled,,C1885
+10095,2026-09-01 07:38:51,APAC,app,home,LM-HOME-181,3,181.01,USD,paid,retarget,C1635
+10096,2026-09-01 01:19:50, us,web,electronics,LM-ELEC-174,1,217.64,USD,cancelled,organic,C1749
+10097,2026-09-01 06:08:50,eu ,marketplace,beauty,LM-BEAU-167,1,181.54,USD,paid,,C1935
+10098,2026-09-01 09:47:55,APAC,web,electronics,LM-ELEC-159,1,220.1,USD,paid,spring_push,C1144
+10099,2026-09-01 11:05:50, us,web,electronics,LM-ELEC-133,2,232.42,USD,refunded,,C1126
+10100,2026-09-01 11:06:43,EU,store,beauty,LM-BEAU-103,3,96.71,USD,cancelled,,C1905
+10101,2026-09-01 20:52:29,APAC,store,beauty,LM-BEAU-114,3,59.75,USD,paid,retarget,C1046
+10102,2026-09-01 17:08:24, us,marketplace,beauty,LM-BEAU-185,2,35.38,USD,paid,,C1429
+10103,2026-09-01 19:26:17,US,marketplace,electronics,LM-ELEC-127,2,160.11,USD,paid,affiliate,C1455
+10104,2026-09-01 17:57:41,APAC,web,beauty,LM-BEAU-150,1,235.58,USD,paid,organic,C1194
+10105,2026-09-01 20:38:01,US,marketplace,grocery,LM-GROC-131,1,161.93,USD,cancelled,retarget,C1805
+10106,2026-09-01 07:21:49,EU,web,home,LM-HOME-135,3,56.46,USD,paid,retarget,C1133
+10107,2026-09-01 04:00:22,EU,marketplace,electronics,LM-ELEC-102,1,161.53,USD,paid,retarget,C1271
+10108,2026-09-01 15:28:49,APAC,web,grocery,LM-GROC-157,3,34.81,USD,paid,,C1226
+10109,2026-09-01 00:03:30, us,store,home,LM-HOME-187,3,78.33,USD,cancelled,spring_push,C1502
+10110,2026-09-01 19:09:04,EU,marketplace,grocery,LM-GROC-179,1,216.68,USD,paid,,C1561
+10111,2026-09-01 16:38:27,US,web,grocery,LM-GROC-183,3,131.32,USD,paid,,C1738
+10112,2026-09-01 10:52:29, us,store,grocery,LM-GROC-193,2,214.09,USD,paid,spring_push,C1320
+10113,2026-09-01 15:04:05,US,web,beauty,LM-BEAU-155,1,229.26,USD,cancelled,spring_push,C1762
+10114,2026-09-01 17:21:42,US,store,electronics,LM-ELEC-145,3,22.39,USD,refunded,affiliate,C1888
+10115,2026-09-01 03:36:32,EU,app,home,LM-HOME-184,1,147.49,USD,paid,affiliate,C1229
+10116,2026-09-01 18:14:51, us,web,beauty,LM-BEAU-177,3,93.59,USD,paid,organic,C1029
+10117,2026-09-01 04:36:42, us,web,beauty,LM-BEAU-118,1,89.76,USD,paid,spring_push,C1093
+10118,2026-09-01 05:23:19,APAC,web,electronics,LM-ELEC-106,2,105.69,USD,paid,retarget,C1161
+10119,2026-09-01 13:31:38, us,store,home,LM-HOME-134,1,71.49,USD,cancelled,retarget,C1773
+10120,2026-09-01 21:37:31,eu ,marketplace,beauty,LM-BEAU-105,2,34.17,USD,cancelled,retarget,C1404
+10121,2026-09-01 04:48:16,APAC,marketplace,home,LM-HOME-115,1,55.82,USD,paid,spring_push,C1509
+10122,2026-09-01 07:32:35,APAC,web,electronics,LM-ELEC-150,1,N/A,USD,cancelled,spring_push,C1446
+10123,2026-09-01 12:45:40, us,marketplace,home,LM-HOME-114,1,141.79,USD,refunded,affiliate,C1021
+10124,2026-09-01 11:05:27,US,app,electronics,LM-ELEC-155,3,115.01,USD,cancelled,,C1410
+10125,2026-09-01 10:49:10,US,web,grocery,LM-GROC-167,1,181.15,USD,paid,,C1198
+10126,2026-09-01 04:15:06,EU,marketplace,beauty,LM-BEAU-125,1,176.89,USD,cancelled,retarget,C1616
+10127,2026-09-01 15:29:48,eu ,store,home,LM-HOME-187,1,228.72,USD,cancelled,,C1658
+10128,2026-09-01 10:09:28,US,store,sports,LM-SPRT-156,1,208.57,USD,cancelled,organic,C1815
+10129,2026-09-01 14:28:02,US,marketplace,home,LM-HOME-136,1,125.95,USD,paid,spring_push,C1660
+10130,2026-09-01 14:37:35,US,store,home,LM-HOME-173,3,146.03,USD,paid,retarget,C1329
+10131,2026-09-02 22:05:32,EU,web,electronics,LM-ELEC-131,1,112.8,USD,paid,affiliate,C1449
+10132,2026-09-02 12:26:49,APAC,web,sports,LM-SPRT-180,1,92.74,USD,paid,organic,C1067
+10133,2026-09-02 21:58:38,EU,marketplace,sports,LM-SPRT-110,2,74.28,USD,cancelled,,C1679
+10134,2026-09-02 21:25:08,eu ,web,beauty,LM-BEAU-139,1,232.52,USD,cancelled,,C1385
+10135,2026-09-02 21:58:33,US,store,beauty,LM-BEAU-165,1,163.63,USD,cancelled,organic,C1018
+10136,2026-09-02 06:14:08,EU,web,electronics,LM-ELEC-137,1,87.61,USD,paid,spring_push,C1519
+10137,2026-09-02 04:38:24,EU,app,sports,LM-SPRT-123,1,161.74,USD,refunded,,C1828
+10138,2026-09-02 23:15:28,eu ,marketplace,grocery,LM-GROC-196,1,103.61,USD,cancelled,affiliate,C1239
+10139,2026-09-02 11:43:36, us,store,beauty,LM-BEAU-198,2,217.77,USD,paid,organic,C1796
+10140,2026-09-02 19:08:55,APAC,web,sports,LM-SPRT-182,2,232.19,USD,paid,affiliate,C1895
+10141,2026-09-02 02:48:10,APAC,store,home,LM-HOME-165,3,205.54,USD,paid,retarget,C1850
+10142,2026-09-02 13:03:25,eu ,marketplace,electronics,LM-ELEC-130,2,213.29,USD,paid,affiliate,C1083
+10143,2026-09-02 20:21:50,EU,app,home,LM-HOME-104,1,223.99,USD,cancelled,organic,C1939
+10144,2026-09-02 02:01:16,EU,app,electronics,LM-ELEC-170,2,112.35,USD,paid,,C1540
+10145,2026-09-02 07:26:40,eu ,store,beauty,LM-BEAU-108,1,78.22,USD,paid,spring_push,C1856
+10146,2026-09-02 18:15:45,EU,marketplace,sports,LM-SPRT-154,3,12.3,USD,refunded,spring_push,C1629
+10147,2026-09-02 02:33:23,US,web,sports,LM-SPRT-149,2,51.86,USD,cancelled,affiliate,C1044
+10148,2026-09-02 02:22:15,US,marketplace,beauty,LM-BEAU-117,1,181.5,USD,paid,spring_push,C1360
+10149,2026-09-02 20:11:51,EU,web,electronics,LM-ELEC-191,2,235.56,USD,paid,affiliate,C1037
+10150,2026-09-02 09:32:25,eu ,store,home,LM-HOME-132,1,213.56,USD,paid,spring_push,C1771
+10151,2026-09-02 20:21:17,US,marketplace,beauty,LM-BEAU-155,1,208.09,USD,paid,affiliate,C1761
+10152,2026-09-02 22:31:23,eu ,marketplace,grocery,LM-GROC-110,1,233.92,USD,paid,affiliate,C1080
+10153,2026-09-02 02:20:42,APAC,marketplace,electronics,LM-ELEC-157,3,76.51,USD,paid,,C1734
+10154,2026-09-02 11:39:27,APAC,web,grocery,LM-GROC-109,1,112.01,USD,cancelled,affiliate,C1372
+10155,2026-09-02 21:50:28,US,app,electronics,LM-ELEC-108,1,41.55,USD,refunded,retarget,C1797
+10156,2026-09-02 19:09:43, us,marketplace,beauty,LM-BEAU-147,2,228.3,USD,paid,affiliate,C1781
+10157,2026-09-02 20:17:15,US,web,electronics,LM-ELEC-194,3,93.45,USD,paid,retarget,C1511
+10158,2026-09-02 22:28:13,eu ,marketplace,sports,LM-SPRT-188,1,69.1,USD,paid,affiliate,C1204
+10159,2026-09-02 14:05:51,APAC,marketplace,home,LM-HOME-190,2,48.47,USD,cancelled,spring_push,C1563
+10160,2026-09-02 20:11:50,APAC,app,beauty,LM-BEAU-115,1,173.28,USD,cancelled,retarget,C1811
+10161,2026-09-02 11:29:51,eu ,app,grocery,LM-GROC-178,1,92.05,USD,refunded,spring_push,C1067
+10162,2026-09-02 18:04:08,APAC,web,grocery,LM-GROC-157,3,103.6,USD,paid,affiliate,C1696
+10163,2026-09-02 04:27:32,US,web,electronics,LM-ELEC-166,3,156.61,USD,paid,retarget,C1311
+10164,2026-09-02 09:54:05,APAC,app,beauty,LM-BEAU-181,1,88.6,USD,refunded,,C1281
+10165,2026-09-02 20:10:37,eu ,app,beauty,LM-BEAU-121,3,132.0,USD,refunded,,C1737
+10166,2026-09-02 02:02:41,eu ,marketplace,beauty,LM-BEAU-183,3,18.04,USD,paid,retarget,C1785
+10167,2026-09-02 17:18:41,APAC,store,sports,LM-SPRT-131,1,123.8,USD,cancelled,affiliate,C1304
+10168,2026-09-02 14:13:21,eu ,app,home,LM-HOME-140,1,110.27,USD,paid,organic,C1751
+10169,2026-09-02 16:35:06,APAC,app,beauty,LM-BEAU-159,2,38.77,USD,paid,spring_push,C1273
+10170,2026-09-02 19:26:15,EU,marketplace,electronics,LM-ELEC-173,1,20.22,USD,paid,organic,C1194
+10171,2026-09-02 15:01:05, us,store,grocery,LM-GROC-130,3,116.57,USD,paid,retarget,C1597
+10172,2026-09-02 21:30:18,eu ,web,home,LM-HOME-113,1,123.07,USD,cancelled,affiliate,C1137
+10173,2026-09-02 01:36:35,EU,marketplace,beauty,LM-BEAU-170,2,93.21,USD,paid,organic,C1075
+10174,2026-09-02 21:39:07,EU,web,grocery,LM-GROC-150,3,73.26,USD,refunded,organic,C1813
+10175,2026-09-02 19:32:25,eu ,web,sports,LM-SPRT-105,1,183.27,USD,paid,spring_push,C1140
+10176,2026-09-02 16:08:20,eu ,marketplace,grocery,LM-GROC-120,3,114.29,USD,refunded,affiliate,C1631
+10177,2026-09-02 17:31:45,eu ,marketplace,beauty,LM-BEAU-160,3,86.37,USD,refunded,spring_push,C1377
+10178,2026-09-02 22:40:01,eu ,store,home,LM-HOME-133,2,143.63,USD,cancelled,,C1591
+10179,2026-09-02 20:46:39, us,app,home,LM-HOME-187,3,119.72,USD,refunded,retarget,C1032
+10180,2026-09-02 13:09:26,EU,store,home,LM-HOME-164,1,12.88,USD,paid,,C1942
+10181,2026-09-02 10:42:30,eu ,store,home,LM-HOME-140,1,128.58,USD,refunded,retarget,C1470
+10182,2026-09-02 21:41:51,APAC,store,beauty,LM-BEAU-124,3,90.52,USD,cancelled,retarget,C1285
+10183,2026-09-02 06:44:45, us,marketplace,electronics,LM-ELEC-161,1,187.03,USD,cancelled,organic,C1573
+10184,2026-09-02 17:24:57, us,marketplace,beauty,LM-BEAU-198,1,36.71,USD,cancelled,retarget,C1297
+10185,2026-09-02 08:47:30,EU,app,home,LM-HOME-168,1,222.41,USD,cancelled,organic,C1955
+10186,2026-09-02 18:15:15,US,app,beauty,LM-BEAU-181,1,33.79,USD,cancelled,retarget,C1053
+10187,2026-09-02 00:35:59,EU,store,beauty,LM-BEAU-183,2,31.78,USD,paid,affiliate,C1488
+10188,2026-09-02 02:41:36,EU,web,beauty,LM-BEAU-122,1,74.57,USD,paid,affiliate,C1903
+10189,2026-09-02 23:55:59,APAC,web,home,LM-HOME-101,2,190.91,USD,paid,organic,C1581
+10190,2026-09-02 17:33:31,EU,store,beauty,LM-BEAU-134,1,113.68,USD,cancelled,retarget,C1828
+10191,2026-09-02 05:00:47,APAC,marketplace,electronics,LM-ELEC-172,2,158.58,USD,cancelled,retarget,C1179
+10192,2026-09-02 12:42:06,EU,app,grocery,LM-GROC-161,2,127.79,USD,paid,organic,C1958
+10193,2026-09-02 10:19:37,eu ,web,beauty,LM-BEAU-133,2,63.02,USD,paid,organic,C1709
+10194,2026-09-02 21:32:59,APAC,web,home,LM-HOME-181,2,79.53,USD,paid,organic,C1376
+10195,2026-09-02 23:38:23, us,store,electronics,LM-ELEC-196,1,119.2,USD,paid,,C1821
+10196,2026-09-02 02:33:28,eu ,marketplace,electronics,LM-ELEC-109,1,166.0,USD,refunded,,C1114
+10197,2026-09-02 04:10:20,eu ,store,sports,LM-SPRT-114,3,55.3,USD,refunded,retarget,C1734
+10198,2026-09-02 14:08:32, us,store,home,LM-HOME-172,3,111.63,USD,paid,spring_push,C1572
+10199,2026-09-02 23:13:37,US,web,beauty,LM-BEAU-154,1,100.16,USD,paid,organic,C1717
+10200,2026-09-02 01:18:26,EU,app,home,LM-HOME-198,1,236.79,USD,paid,affiliate,C1383
+10201,2026-09-02 12:05:43,eu ,app,grocery,LM-GROC-183,2,209.82,USD,paid,organic,C1121
+10202,2026-09-02 07:53:00,US,marketplace,sports,LM-SPRT-159,2,130.93,USD,cancelled,,C1434
+10203,2026-09-02 08:12:59,US,web,electronics,LM-ELEC-184,1,115.13,USD,paid,affiliate,C1629
+10204,2026-09-02 19:02:28,eu ,web,home,LM-HOME-131,1,56.21,USD,paid,spring_push,C1411
+10205,2026-09-02 04:32:18,EU,marketplace,sports,LM-SPRT-173,1,183.14,USD,paid,,C1791
+10206,2026-09-02 21:33:14, us,marketplace,beauty,LM-BEAU-135,1,78.36,USD,paid,spring_push,C1570
+10207,2026-09-02 11:41:42, us,marketplace,electronics,LM-ELEC-189,2,137.18,USD,paid,affiliate,C1418
+10208,2026-09-02 07:54:14,APAC,app,grocery,LM-GROC-159,1,183.15,USD,paid,spring_push,C1575
+10209,2026-09-02 07:16:13,APAC,web,grocery,LM-GROC-157,3,131.19,USD,paid,organic,C1094
+10210,2026-09-02 19:38:02,US,app,electronics,LM-ELEC-197,1,70.65,USD,cancelled,,C1741
+10211,2026-09-02 09:58:00,EU,app,electronics,LM-ELEC-194,2,56.86,USD,paid,spring_push,C1764
+10212,2026-09-02 06:25:58,EU,marketplace,grocery,LM-GROC-199,1,169.54,USD,cancelled,organic,C1389
+10213,2026-09-02 15:29:06, us,marketplace,beauty,LM-BEAU-126,1,69.05,USD,refunded,organic,C1320
+10214,2026-09-02 08:35:59,eu ,store,sports,LM-SPRT-137,1,180.1,USD,paid,retarget,C1200
+10215,2026-09-02 17:41:43,APAC,marketplace,grocery,LM-GROC-197,3,201.42,USD,paid,affiliate,C1989
+10216,2026-09-02 05:08:46,eu ,store,grocery,LM-GROC-123,2,47.45,USD,paid,,C1657
+10217,2026-09-02 21:03:48,US,store,sports,LM-SPRT-117,1,202.74,USD,paid,retarget,C1069
+,2026-09-02 01:39:40,eu ,store,home,LM-HOME-184,1,125.58,USD,paid,affiliate,C1016
+10219,2026-09-02 23:17:34,APAC,web,sports,LM-SPRT-164,2,11.24,USD,refunded,affiliate,C1825
+10220,2026-09-02 04:15:12,eu ,marketplace,electronics,LM-ELEC-145,1,221.03,USD,refunded,organic,C1814
+10221,2026-09-02 22:14:19,US,web,beauty,LM-BEAU-111,2,114.76,USD,paid,affiliate,C1388
+10222,2026-09-02 05:05:31, us,marketplace,grocery,LM-GROC-172,1,155.91,USD,cancelled,spring_push,C1916
+10223,2026-09-02 18:30:17,US,web,home,LM-HOME-187,1,57.44,USD,cancelled,organic,C1920
+10224,2026-09-02 00:13:37,EU,store,home,LM-HOME-109,1,223.51,USD,paid,organic,C1166
+10225,2026-09-02 10:24:48,EU,web,sports,LM-SPRT-164,2,165.23,USD,refunded,organic,C1054
+10226,2026-09-02 19:25:49,APAC,web,electronics,LM-ELEC-181,1,87.35,USD,refunded,organic,C1802
+10227,2026-09-02 13:11:43,eu ,store,grocery,LM-GROC-110,1,90.87,USD,paid,,C1302
+10228,2026-09-02 22:50:40,EU,store,home,LM-HOME-140,1,70.54,USD,paid,organic,C1109
+10229,2026-09-02 03:08:05,EU,store,beauty,LM-BEAU-157,2,91.82,USD,paid,,C1568
+10230,2026-09-02 02:38:38,APAC,store,home,LM-HOME-101,1,29.25,USD,refunded,organic,C1423
+10231,2026-09-02 18:33:10, us,app,home,LM-HOME-117,3,218.06,USD,paid,organic,C1308
+10232,2026-09-02 13:19:30,US,marketplace,electronics,LM-ELEC-132,1,47.21,USD,paid,retarget,C1738
+10233,2026-09-02 04:19:00, us,marketplace,sports,LM-SPRT-179,3,53.77,USD,paid,affiliate,C1823
+10234,2026-09-02 19:08:19,APAC,app,grocery,LM-GROC-161,1,108.19,USD,cancelled,organic,C1181
+10235,2026-09-02 15:36:50,EU,marketplace,beauty,LM-BEAU-148,1,178.62,USD,cancelled,organic,C1836
+10236,2026-09-02 18:34:11,eu ,web,beauty,LM-BEAU-193,1,224.27,USD,paid,affiliate,C1965
+10237,2026-09-02 13:43:31,EU,marketplace,grocery,LM-GROC-130,1,200.94,USD,paid,organic,C1674
+10238,2026-09-02 15:37:25,eu ,store,grocery,LM-GROC-169,2,25.62,USD,refunded,spring_push,C1809
+10239,2026-09-02 03:49:15,APAC,app,sports,LM-SPRT-182,3,156.24,USD,paid,,C1045
+10240,2026-09-02 03:00:06,APAC,app,grocery,LM-GROC-165,1,232.06,USD,paid,,C1571
+10241,2026-09-02 14:49:43,eu ,app,sports,LM-SPRT-144,1,111.7,USD,paid,spring_push,C1494
+10242,2026-09-02 04:22:19,APAC,store,grocery,LM-GROC-126,1,35.37,USD,cancelled,,C1494
+10243,2026-09-02 10:04:19,US,web,home,LM-HOME-102,2,175.64,USD,paid,organic,C1663
+10244,2026-09-02 05:21:35, us,store,electronics,LM-ELEC-129,1,127.95,USD,refunded,affiliate,C1644
+10245,2026-09-02 06:28:37, us,store,grocery,LM-GROC-100,2,15.26,USD,refunded,retarget,C1210
+10246,2026-09-02 05:23:20,EU,store,home,LM-HOME-114,3,32.06,USD,refunded,organic,C1686
+10247,2026-09-02 12:37:07,APAC,marketplace,sports,LM-SPRT-158,1,146.7,USD,refunded,,C1176
+10248,2026-09-02 04:20:07,EU,marketplace,beauty,LM-BEAU-114,3,145.12,USD,cancelled,retarget,C1382
+10249,2026-09-02 18:24:27,EU,store,sports,LM-SPRT-181,2,105.32,USD,paid,,C1710
+10250,2026-09-02 04:11:20, us,web,electronics,LM-ELEC-145,3,47.13,USD,paid,spring_push,C1496
+10251,2026-09-02 13:43:31, us,store,grocery,LM-GROC-162,3,125.51,USD,paid,retarget,C1084
+10252,2026-09-02 17:18:10, us,store,electronics,LM-ELEC-170,1,16.07,USD,paid,,C1115
+10253,2026-09-03 23:28:34,EU,store,sports,LM-SPRT-113,1,133.98,USD,paid,retarget,C1304
+10254,2026-09-03 14:55:07,EU,app,home,LM-HOME-194,2,69.34,USD,paid,,C1705
+10255,2026-09-03 06:52:13,US,marketplace,sports,LM-SPRT-168,2,46.92,USD,paid,organic,C1611
+10256,2026-09-03 16:57:43,US,app,beauty,LM-BEAU-196,1,75.48,USD,paid,affiliate,C1940
+10257,2026-09-03 07:09:45,APAC,app,beauty,LM-BEAU-197,1,170.88,USD,paid,affiliate,C1501
+10258,2026-09-03 20:50:56,US,store,beauty,LM-BEAU-165,2,95.35,USD,paid,organic,C1711
+10259,2026-09-03 18:00:55,US,store,beauty,LM-BEAU-181,2,228.48,USD,paid,organic,C1870
+10260,2026-09-03 06:31:17,APAC,marketplace,sports,LM-SPRT-143,2,58.93,USD,paid,,C1591
+10261,2026-09-03 01:06:40, us,web,grocery,LM-GROC-115,1,215.5,USD,paid,retarget,C1451
+10262,2026-09-03 20:19:10,APAC,web,grocery,LM-GROC-183,1,239.0,USD,paid,organic,C1256
+10263,2026-09-03 23:44:48,EU,store,electronics,LM-ELEC-183,1,100.25,USD,paid,spring_push,C1720
+10264,2026-09-03 07:33:43, us,web,electronics,LM-ELEC-101,2,26.54,USD,refunded,organic,C1836
+10265,2026-09-03 12:05:46,US,web,grocery,LM-GROC-140,1,119.09,USD,paid,organic,C1902
+10266,2026-09-03 04:04:33,eu ,web,grocery,LM-GROC-178,1,157.02,USD,cancelled,retarget,C1450
+10267,2026-09-03 21:28:55,EU,web,electronics,LM-ELEC-112,1,221.46,USD,refunded,retarget,C1770
+10268,2026-09-03 04:15:17,US,app,grocery,LM-GROC-170,1,231.49,USD,paid,,C1614
+10269,2026-09-03 09:13:33,eu ,app,beauty,LM-BEAU-195,1,204.79,USD,cancelled,affiliate,C1302
+10270,2026-09-03 15:40:38,US,web,electronics,LM-ELEC-146,2,97.83,USD,paid,organic,C1135
+10271,2026-09-03 05:48:30,US,web,sports,LM-SPRT-175,2,93.09,USD,cancelled,spring_push,C1014
+10272,2026-09-03 16:18:40,eu ,store,home,LM-HOME-154,1,228.12,USD,paid,affiliate,C1084
+10273,2026-09-03 09:05:32,EU,app,sports,LM-SPRT-168,3,43.85,USD,paid,organic,C1400
+10274,2026-09-03 07:03:15,US,store,home,LM-HOME-114,1,170.24,USD,cancelled,affiliate,C1626
+10275,2026-09-03 04:44:00,EU,store,beauty,LM-BEAU-144,1,36.15,USD,cancelled,,C1529
+10276,2026-09-03 08:46:56,US,web,beauty,LM-BEAU-142,1,94.59,USD,cancelled,affiliate,C1278
+10277,2026-09-03 14:32:23,US,store,beauty,LM-BEAU-172,3,153.77,USD,paid,retarget,C1376
+10278,2026-09-03 07:47:32,US,web,home,LM-HOME-101,3,164.56,USD,paid,retarget,C1047
+10279,2026-09-03 17:51:58, us,app,grocery,LM-GROC-141,1,49.93,USD,paid,retarget,C1426
+10280,2026-09-03 11:07:32,US,app,beauty,LM-BEAU-128,1,199.72,USD,refunded,,C1047
+10281,2026-09-03 10:05:35, us,web,home,LM-HOME-147,2,208.99,USD,paid,retarget,C1298
+10282,2026-09-03 18:31:49,EU,app,beauty,LM-BEAU-119,3,64.66,USD,paid,spring_push,C1954
+10283,2026-09-03 00:21:00, us,marketplace,electronics,LM-ELEC-113,3,88.7,USD,cancelled,retarget,C1542
+10284,2026-09-03 22:17:05,US,app,grocery,LM-GROC-166,2,231.01,USD,paid,affiliate,C1717
+10285,2026-09-03 04:40:52, us,web,grocery,LM-GROC-175,1,142.95,USD,refunded,,C1063
+10286,2026-09-03 12:44:53,APAC,marketplace,electronics,LM-ELEC-157,1,76.02,USD,paid,organic,C1239
+10287,2026-09-03 03:09:06,EU,store,electronics,LM-ELEC-159,1,189.06,USD,refunded,organic,C1416
+10288,2026-09-03 08:54:07,US,app,beauty,LM-BEAU-187,1,113.12,USD,paid,organic,C1846
+10289,2026-09-03 04:05:45,EU,marketplace,sports,LM-SPRT-150,1,58.28,USD,paid,,C1050
+10290,2026-09-03 14:35:47,eu ,app,beauty,LM-BEAU-112,1,15.7,USD,paid,affiliate,C1104
+10291,2026-09-03 04:12:52, us,marketplace,electronics,LM-ELEC-187,1,11.27,USD,paid,spring_push,C1596
+10292,2026-09-03 20:28:51,EU,web,home,LM-HOME-142,1,239.34,USD,paid,spring_push,C1043
+10293,2026-09-03 23:25:31,US,store,home,LM-HOME-187,1,222.44,USD,paid,affiliate,C1176
+10294,2026-09-03 01:39:39,eu ,app,electronics,LM-ELEC-182,1,73.29,USD,paid,organic,C1510
+10295,2026-09-03 12:08:26,EU,app,sports,LM-SPRT-180,2,N/A,USD,paid,,C1813
+10296,2026-09-03 11:58:36,eu ,marketplace,grocery,LM-GROC-149,1,N/A,USD,paid,organic,C1184
+10297,2026-09-03 01:51:30,eu ,marketplace,sports,LM-SPRT-198,1,15.28,USD,paid,,C1238
+10298,2026-09-03 17:52:50,US,app,home,LM-HOME-173,1,160.56,USD,paid,affiliate,C1363
+10299,2026-09-03 23:44:22,eu ,web,electronics,LM-ELEC-190,1,63.26,USD,paid,organic,C1970
+10300,2026-09-03 17:19:11, us,web,electronics,LM-ELEC-111,3,228.05,USD,paid,spring_push,C1238
+10301,2026-09-03 19:12:51,EU,marketplace,home,LM-HOME-191,3,119.15,USD,paid,retarget,C1940
+10302,2026-09-03 22:58:09,US,marketplace,beauty,LM-BEAU-109,1,13.57,USD,refunded,organic,C1721
+10303,2026-09-03 10:08:10, us,store,grocery,LM-GROC-183,3,31.89,USD,paid,organic,C1178
+10304,2026-09-03 21:37:52,EU,store,sports,LM-SPRT-139,3,190.69,USD,paid,organic,C1130
+10305,2026-09-03 01:11:38,APAC,app,home,LM-HOME-181,3,99.16,USD,refunded,,C1106
+10306,2026-09-03 11:20:10,US,marketplace,electronics,LM-ELEC-157,1,181.05,USD,paid,spring_push,C1271
+10307,2026-09-03 23:00:03, us,store,home,LM-HOME-193,1,67.92,USD,paid,affiliate,C1992
+10308,2026-09-03 17:24:06, us,app,grocery,LM-GROC-120,2,212.63,USD,paid,affiliate,C1075
+10309,2026-09-03 03:04:21,EU,store,home,LM-HOME-120,1,13.15,USD,paid,spring_push,C1560
+10310,2026-09-03 15:45:01, us,app,home,LM-HOME-177,1,146.02,USD,refunded,affiliate,C1160
+10311,2026-09-03 22:35:46,eu ,marketplace,beauty,LM-BEAU-184,1,234.07,USD,paid,organic,C1304
+10312,2026-09-03 04:03:23,US,store,home,LM-HOME-111,2,140.86,USD,paid,organic,C1843
+10313,2026-09-03 06:10:40,APAC,web,sports,LM-SPRT-160,2,54.72,USD,paid,spring_push,C1315
+10314,2026-09-03 02:41:34, us,app,grocery,LM-GROC-147,2,215.66,USD,paid,affiliate,C1378
+10315,2026-09-03 07:53:17,eu ,web,home,LM-HOME-119,1,110.3,USD,paid,spring_push,C1087
+10316,2026-09-03 07:35:03, us,store,sports,LM-SPRT-168,2,233.22,USD,refunded,affiliate,C1586
+10317,2026-09-03 01:32:36,eu ,app,grocery,LM-GROC-115,1,26.78,USD,cancelled,affiliate,C1177
+10318,2026-09-03 01:27:05, us,app,electronics,LM-ELEC-180,1,195.66,USD,paid,retarget,C1854
+10319,2026-09-03 12:35:20,APAC,store,beauty,LM-BEAU-101,1,28.65,USD,refunded,,C1601
+10320,2026-09-03 18:37:37,US,web,grocery,LM-GROC-172,1,104.44,USD,paid,spring_push,C1804
+10321,2026-09-03 12:41:31,eu ,store,sports,LM-SPRT-104,1,211.73,USD,paid,retarget,C1282
+10322,2026-09-03 01:25:56,APAC,app,sports,LM-SPRT-106,3,166.11,USD,paid,affiliate,C1942
+10323,2026-09-03 09:17:53, us,web,beauty,LM-BEAU-129,1,86.72,USD,paid,retarget,C1307
+10324,2026-09-03 19:41:05,EU,store,grocery,LM-GROC-127,1,70.87,USD,paid,affiliate,C1758
+10325,2026-09-03 05:04:19,eu ,store,sports,LM-SPRT-117,1,198.57,USD,refunded,,C1900
+10326,2026-09-03 01:15:02, us,web,electronics,LM-ELEC-146,1,211.1,USD,paid,retarget,C1280
+10327,2026-09-03 21:01:15,APAC,store,grocery,LM-GROC-176,3,100.39,USD,paid,affiliate,C1181
+10328,2026-09-03 05:53:57,APAC,web,grocery,LM-GROC-136,3,136.13,USD,paid,spring_push,C1395
+10329,2026-09-03 07:43:13,APAC,store,sports,LM-SPRT-165,1,206.92,USD,cancelled,spring_push,C1885
+10330,2026-09-03 05:38:51,US,app,home,LM-HOME-132,2,219.52,USD,cancelled,,C1824
+10331,2026-09-03 14:16:13, us,marketplace,beauty,LM-BEAU-186,2,215.8,USD,paid,,C1844
+10332,2026-09-03 11:35:41,eu ,marketplace,sports,LM-SPRT-138,1,10.2,USD,cancelled,spring_push,C1493
+10333,2026-09-03 20:45:57,APAC,app,beauty,LM-BEAU-119,1,207.94,USD,paid,,C1783
+10334,2026-09-03 21:08:46,US,store,home,LM-HOME-137,3,102.05,USD,paid,organic,C1928
+10335,2026-09-03 06:21:46,EU,store,grocery,LM-GROC-185,1,143.47,USD,refunded,organic,C1519
+10336,2026-09-03 15:08:47,APAC,app,electronics,LM-ELEC-187,3,50.43,USD,paid,organic,C1670
+10337,2026-09-03 13:50:56,APAC,marketplace,beauty,LM-BEAU-133,1,180.78,USD,paid,,C1301
+10338,2026-09-03 18:37:39,US,store,home,LM-HOME-124,2,20.93,USD,cancelled,,C1122
+10339,2026-09-03 04:08:12,APAC,store,grocery,LM-GROC-172,3,77.57,USD,paid,affiliate,C1146
+10340,2026-09-03 05:20:40,US,web,electronics,LM-ELEC-157,1,121.37,USD,cancelled,organic,C1214
+10341,2026-09-03 02:08:39, us,store,electronics,LM-ELEC-151,3,185.48,USD,paid,affiliate,C1988
+10342,2026-09-03 11:00:57,APAC,app,home,LM-HOME-102,1,132.07,USD,cancelled,spring_push,C1641
+10343,2026-09-03 12:32:37,APAC,app,electronics,LM-ELEC-108,1,80.75,USD,paid,spring_push,C1305
+10344,2026-09-03 13:56:43,EU,marketplace,grocery,LM-GROC-162,3,146.56,USD,paid,organic,C1768
+10345,2026-09-03 04:13:46,US,app,grocery,LM-GROC-115,1,61.38,USD,cancelled,organic,C1728
+10346,2026-09-03 17:39:03,eu ,web,home,LM-HOME-184,2,211.42,USD,paid,spring_push,C1669
+10347,2026-09-03 03:35:16, us,app,home,LM-HOME-126,1,104.98,USD,paid,spring_push,C1308
+10348,2026-09-03 22:08:26,US,web,home,LM-HOME-136,3,71.0,USD,refunded,spring_push,C1803
+10349,2026-09-03 16:12:22, us,marketplace,electronics,LM-ELEC-120,3,54.74,USD,paid,spring_push,C1561
+10350,2026-09-03 00:42:05,US,store,electronics,LM-ELEC-119,2,85.03,USD,paid,spring_push,C1798
+10351,2026-09-03 09:16:29,US,web,home,LM-HOME-122,1,157.66,USD,paid,spring_push,C1872
+10352,2026-09-03 01:00:54,EU,app,beauty,LM-BEAU-142,2,179.47,USD,paid,organic,C1915
+10353,2026-09-03 11:52:21,EU,web,sports,LM-SPRT-151,1,211.87,USD,paid,affiliate,C1985
+10354,2026-09-03 05:07:08,US,app,grocery,LM-GROC-113,2,193.68,USD,cancelled,affiliate,C1933
+10355,2026-09-03 11:39:01,EU,store,sports,LM-SPRT-162,2,50.46,USD,paid,spring_push,C1908
+10356,2026-09-03 00:45:55,eu ,app,home,LM-HOME-185,1,69.06,USD,paid,organic,C1531
+,2026-09-03 07:30:22, us,app,sports,LM-SPRT-171,1,108.7,USD,cancelled,,C1055
+10358,2026-09-03 05:04:48, us,marketplace,electronics,LM-ELEC-130,3,205.01,USD,paid,organic,C1993
+10359,2026-09-03 12:52:15,US,store,sports,LM-SPRT-156,1,135.94,USD,paid,,C1458
+10360,2026-09-04 23:41:01,US,store,grocery,LM-GROC-152,1,35.98,USD,paid,spring_push,C1570
+10361,2026-09-04 09:56:32,eu ,app,home,LM-HOME-183,3,231.47,USD,cancelled,affiliate,C1973
+10362,2026-09-04 17:49:39,eu ,store,home,LM-HOME-191,1,203.96,USD,paid,organic,C1733
+10363,2026-09-04 20:51:18,eu ,marketplace,home,LM-HOME-189,1,9.01,USD,paid,spring_push,C1046
+10364,2026-09-04 23:26:06,APAC,app,grocery,LM-GROC-124,1,198.76,USD,cancelled,spring_push,C1952
+10365,2026-09-04 22:21:06, us,web,electronics,LM-ELEC-181,2,199.38,USD,paid,,C1126
+10366,2026-09-04 04:31:00,eu ,web,grocery,LM-GROC-170,2,160.93,USD,refunded,affiliate,C1858
+10367,2026-09-04 23:52:08,US,store,sports,LM-SPRT-184,1,168.66,USD,paid,,C1620
+10368,2026-09-04 22:48:15,APAC,store,sports,LM-SPRT-143,2,105.42,USD,refunded,organic,C1463
+10369,2026-09-04 16:19:53,eu ,marketplace,electronics,LM-ELEC-191,2,147.98,USD,cancelled,,C1647
+10370,2026-09-04 11:58:43,EU,app,electronics,LM-ELEC-164,3,173.88,USD,cancelled,,C1710
+10371,2026-09-04 18:42:45, us,marketplace,home,LM-HOME-154,1,138.67,USD,refunded,spring_push,C1535
+10372,2026-09-04 06:17:48,EU,marketplace,grocery,LM-GROC-187,1,20.78,USD,paid,organic,C1149
+10373,2026-09-04 11:52:28,US,app,beauty,LM-BEAU-195,1,182.96,USD,paid,,C1398
+10374,2026-09-04 13:50:43,APAC,web,beauty,LM-BEAU-101,1,222.98,USD,paid,organic,C1207
+10375,2026-09-04 22:41:23,eu ,app,grocery,LM-GROC-199,1,219.51,USD,cancelled,retarget,C1301
+10376,2026-09-04 16:07:24,US,store,home,LM-HOME-135,1,231.31,USD,cancelled,,C1270
+10377,2026-09-04 22:59:09,US,app,sports,LM-SPRT-141,1,9.81,USD,paid,,C1052
+10378,2026-09-04 17:22:04,APAC,app,sports,LM-SPRT-123,1,122.06,USD,refunded,,C1069
+10379,2026-09-04 02:22:14,EU,marketplace,electronics,LM-ELEC-142,2,134.22,USD,paid,organic,C1300
+10380,2026-09-04 20:00:07,APAC,store,sports,LM-SPRT-130,3,118.43,USD,refunded,,C1940
+10381,2026-09-04 12:16:34,APAC,web,home,LM-HOME-166,1,96.79,USD,paid,organic,C1526
+,2026-09-04 06:20:32,US,web,grocery,LM-GROC-121,2,18.65,USD,cancelled,,C1546
+10383,2026-09-04 21:27:53,US,app,home,LM-HOME-168,1,163.68,USD,paid,affiliate,C1662
+10384,2026-09-04 10:02:05,US,web,home,LM-HOME-122,1,14.0,USD,cancelled,organic,C1571
+,2026-09-04 20:25:27,APAC,web,electronics,LM-ELEC-149,1,102.87,USD,paid,spring_push,C1547
+10386,2026-09-04 01:44:54,US,marketplace,sports,LM-SPRT-164,1,183.5,USD,refunded,spring_push,C1296
+10387,2026-09-04 12:25:52,US,store,beauty,LM-BEAU-120,3,28.53,USD,paid,,C1225
+10388,2026-09-04 04:19:43,APAC,web,grocery,LM-GROC-170,3,76.79,USD,cancelled,,C1144
+10389,2026-09-04 17:05:19,EU,marketplace,home,LM-HOME-127,3,146.63,USD,refunded,affiliate,C1927
+10390,2026-09-04 19:53:16,EU,web,sports,LM-SPRT-123,1,45.76,USD,paid,,C1872
+10391,2026-09-04 09:42:04,APAC,web,sports,LM-SPRT-125,2,157.74,USD,paid,,C1498
+10392,2026-09-04 03:18:39,US,app,beauty,LM-BEAU-140,1,163.9,USD,paid,affiliate,C1461
+10393,2026-09-04 11:51:20, us,app,beauty,LM-BEAU-100,3,43.78,USD,refunded,organic,C1252
+10394,2026-09-04 21:46:21, us,store,grocery,LM-GROC-157,1,202.99,USD,paid,organic,C1793
+10395,2026-09-04 02:53:17,EU,app,sports,LM-SPRT-133,1,49.19,USD,refunded,spring_push,C1744
+10396,2026-09-04 18:25:49,eu ,app,home,LM-HOME-104,3,154.72,USD,refunded,,C1266
+10397,2026-09-04 11:25:14,eu ,marketplace,sports,LM-SPRT-117,2,159.88,USD,paid,affiliate,C1513
+10398,2026-09-04 07:54:51,eu ,app,grocery,LM-GROC-196,1,124.75,USD,cancelled,,C1143
+10399,2026-09-04 04:47:46, us,marketplace,electronics,LM-ELEC-105,3,228.13,USD,cancelled,retarget,C1779
+10400,2026-09-04 21:13:33,APAC,store,home,LM-HOME-160,1,94.02,USD,paid,affiliate,C1902
+10401,2026-09-04 20:53:17,APAC,app,beauty,LM-BEAU-148,1,171.41,USD,refunded,affiliate,C1374
+10402,2026-09-04 16:25:22,APAC,store,home,LM-HOME-161,3,66.74,USD,paid,,C1006
+10403,2026-09-04 16:41:17,EU,app,electronics,LM-ELEC-123,2,46.84,USD,paid,retarget,C1370
+10404,2026-09-04 23:07:30, us,store,home,LM-HOME-126,1,104.48,USD,paid,,C1165
+10405,2026-09-04 18:37:10,EU,web,grocery,LM-GROC-173,1,64.91,USD,paid,retarget,C1057
+10406,2026-09-04 18:40:01,APAC,web,electronics,LM-ELEC-127,3,230.33,USD,refunded,affiliate,C1621
+10407,2026-09-04 19:09:50,eu ,app,grocery,LM-GROC-179,1,59.28,USD,paid,,C1270
+10408,2026-09-04 07:24:24,EU,web,beauty,LM-BEAU-102,2,146.6,USD,paid,retarget,C1535
+10409,2026-09-04 03:11:30,eu ,web,sports,LM-SPRT-168,2,199.84,USD,refunded,,C1770
+10410,2026-09-04 00:57:49, us,store,grocery,LM-GROC-147,1,217.31,USD,refunded,spring_push,C1714
+10411,2026-09-04 11:37:51,eu ,web,electronics,LM-ELEC-154,2,191.28,USD,paid,retarget,C1260
+10412,2026-09-04 13:16:12,US,web,electronics,LM-ELEC-173,1,74.08,USD,refunded,,C1120
+10413,2026-09-04 13:23:06,EU,store,grocery,LM-GROC-183,1,167.72,USD,paid,,C1259
+10414,2026-09-04 08:43:25,EU,store,sports,LM-SPRT-170,2,139.22,USD,refunded,,C1494
+10415,2026-09-04 18:22:49, us,app,sports,LM-SPRT-184,3,120.49,USD,paid,spring_push,C1765
+10416,2026-09-04 10:51:35,eu ,web,electronics,LM-ELEC-120,1,58.15,USD,paid,affiliate,C1987
+10417,2026-09-04 13:05:04,APAC,app,home,LM-HOME-147,,117.69,USD,refunded,spring_push,C1623
+,2026-09-04 09:45:38,US,app,grocery,LM-GROC-181,2,150.63,USD,refunded,affiliate,C1449
+10419,2026-09-04 16:33:44,EU,app,sports,LM-SPRT-186,1,53.58,USD,refunded,spring_push,C1368
+10420,2026-09-04 12:22:42, us,store,home,LM-HOME-175,1,N/A,USD,paid,retarget,C1530
+10421,2026-09-04 17:58:37,APAC,marketplace,home,LM-HOME-135,1,135.73,USD,cancelled,retarget,C1620
+10422,2026-09-04 05:26:32,US,web,grocery,LM-GROC-164,2,141.59,USD,paid,organic,C1348
+10423,2026-09-04 08:44:28, us,store,sports,LM-SPRT-198,1,211.32,USD,refunded,retarget,C1775
+10424,2026-09-04 15:07:16,US,store,grocery,LM-GROC-181,2,216.05,USD,paid,retarget,C1693
+10425,2026-09-04 17:00:44,APAC,app,beauty,LM-BEAU-136,2,229.69,USD,refunded,spring_push,C1408
+10426,2026-09-04 15:20:22,EU,marketplace,beauty,LM-BEAU-123,1,136.88,USD,paid,retarget,C1510
+10427,2026-09-04 07:12:53,EU,marketplace,electronics,LM-ELEC-119,1,210.54,USD,paid,spring_push,C1122
+10428,2026-09-04 01:54:30,APAC,marketplace,grocery,LM-GROC-163,3,10.03,USD,refunded,,C1889
+10429,2026-09-04 18:08:03,eu ,store,electronics,LM-ELEC-161,3,73.38,USD,paid,,C1033
+10430,2026-09-04 22:33:29,APAC,web,grocery,LM-GROC-101,1,114.34,USD,paid,retarget,C1388
+10431,2026-09-04 05:35:16,EU,marketplace,beauty,LM-BEAU-160,1,150.36,USD,paid,,C1351
+10432,2026-09-04 11:23:54, us,marketplace,grocery,LM-GROC-157,2,57.24,USD,cancelled,retarget,C1585
+10433,2026-09-04 08:51:15,eu ,store,sports,LM-SPRT-148,1,196.99,USD,cancelled,retarget,C1149
+10434,2026-09-04 13:31:08,eu ,marketplace,electronics,LM-ELEC-162,2,195.01,USD,paid,organic,C1256
+10435,2026-09-04 05:03:13,APAC,store,sports,LM-SPRT-180,1,100.73,USD,cancelled,spring_push,C1460
+10436,2026-09-04 08:22:01, us,web,beauty,LM-BEAU-144,1,91.91,USD,refunded,,C1203
+10437,2026-09-04 11:20:43,eu ,store,sports,LM-SPRT-199,1,235.22,USD,paid,affiliate,C1910
+10438,2026-09-04 05:40:51,APAC,store,sports,LM-SPRT-180,1,115.86,USD,paid,,C1585
+10439,2026-09-04 10:20:41,APAC,marketplace,home,LM-HOME-177,1,46.0,USD,paid,affiliate,C1277
+10440,2026-09-04 13:10:11,US,app,beauty,LM-BEAU-193,3,129.1,USD,paid,retarget,C1677
+10441,2026-09-04 03:04:59, us,web,home,LM-HOME-103,1,47.14,USD,paid,affiliate,C1536
+10442,2026-09-04 02:41:59, us,marketplace,home,LM-HOME-129,1,69.26,USD,paid,retarget,C1755
+10443,2026-09-04 00:02:42,APAC,marketplace,electronics,LM-ELEC-160,1,130.44,USD,paid,affiliate,C1998
+10444,2026-09-04 17:11:37,eu ,store,beauty,LM-BEAU-180,3,111.48,USD,cancelled,,C1445
+10445,2026-09-04 17:14:51,US,store,sports,LM-SPRT-139,1,218.92,USD,paid,organic,C1422
+10446,2026-09-04 11:18:30,eu ,web,beauty,LM-BEAU-188,1,8.52,USD,paid,affiliate,C1969
+10447,2026-09-04 19:14:50,US,marketplace,beauty,LM-BEAU-124,1,185.8,USD,paid,affiliate,C1903
+10448,2026-09-04 20:24:53, us,app,grocery,LM-GROC-133,1,46.3,USD,cancelled,spring_push,C1432
+10449,2026-09-04 08:18:41,eu ,marketplace,sports,LM-SPRT-152,3,195.45,USD,cancelled,retarget,C1873
+10450,2026-09-04 19:28:17,eu ,store,electronics,LM-ELEC-124,1,34.05,USD,paid,organic,C1019
+,2026-09-04 09:17:08, us,web,sports,LM-SPRT-129,1,51.54,USD,paid,spring_push,C1154
+10452,2026-09-04 11:29:44,US,marketplace,electronics,LM-ELEC-110,1,105.79,USD,paid,retarget,C1057
+10453,2026-09-04 06:57:53,APAC,store,grocery,LM-GROC-101,1,134.25,USD,paid,spring_push,C1997
+10454,2026-09-04 07:47:02,EU,store,electronics,LM-ELEC-194,2,187.04,USD,paid,spring_push,C1533
+10455,2026-09-04 10:10:40,US,web,electronics,LM-ELEC-132,2,98.58,USD,paid,affiliate,C1653
+10456,2026-09-04 03:15:40, us,marketplace,beauty,LM-BEAU-101,1,208.44,USD,paid,retarget,C1813
+10457,2026-09-04 01:37:50, us,app,home,LM-HOME-147,2,191.19,USD,paid,spring_push,C1254
+10458,2026-09-04 01:03:22,EU,web,home,LM-HOME-116,3,86.84,USD,cancelled,affiliate,C1238
+10459,2026-09-04 23:12:01, us,marketplace,sports,LM-SPRT-192,1,194.98,USD,paid,retarget,C1256
+10460,2026-09-04 22:31:12,eu ,app,grocery,LM-GROC-169,2,137.91,USD,refunded,organic,C1331
+10461,2026-09-04 05:04:33,EU,store,beauty,LM-BEAU-137,3,220.2,USD,refunded,organic,C1554
+10462,2026-09-04 00:39:54,APAC,app,home,LM-HOME-141,3,96.25,USD,paid,spring_push,C1674
+10463,2026-09-04 17:09:39,APAC,marketplace,grocery,LM-GROC-152,1,129.82,USD,paid,organic,C1113
+10464,2026-09-04 05:55:02,EU,web,home,LM-HOME-162,,201.85,USD,paid,retarget,C1101
+10465,2026-09-04 18:16:03,APAC,app,grocery,LM-GROC-177,2,130.23,USD,cancelled,spring_push,C1013
+10466,2026-09-04 14:51:40,US,marketplace,electronics,LM-ELEC-171,2,223.43,USD,paid,affiliate,C1841
+10467,2026-09-04 23:04:53,APAC,web,home,LM-HOME-127,3,70.04,USD,paid,,C1099
+10468,2026-09-04 16:42:15,eu ,app,electronics,LM-ELEC-171,3,97.7,USD,paid,,C1425
+10469,2026-09-04 21:27:56,US,app,sports,LM-SPRT-123,1,164.65,USD,cancelled,,C1411
+10470,2026-09-04 11:57:20,eu ,marketplace,electronics,LM-ELEC-147,3,239.64,USD,paid,affiliate,C1782
+10471,2026-09-04 06:24:49,eu ,marketplace,beauty,LM-BEAU-146,3,64.23,USD,refunded,affiliate,C1458
+10472,2026-09-04 00:33:08,APAC,web,home,LM-HOME-138,1,236.05,USD,refunded,retarget,C1219
+10473,2026-09-04 17:36:59,eu ,app,home,LM-HOME-112,1,221.27,USD,refunded,spring_push,C1471
+10474,2026-09-04 07:14:16,APAC,web,electronics,LM-ELEC-173,1,93.48,USD,refunded,affiliate,C1582
+10475,2026-09-04 15:52:57,eu ,web,home,LM-HOME-176,1,192.06,USD,paid,organic,C1038
+10476,2026-09-04 10:22:56, us,store,sports,LM-SPRT-115,2,26.67,USD,paid,retarget,C1765
+10477,2026-09-04 12:03:19,eu ,web,sports,LM-SPRT-140,1,155.24,USD,cancelled,,C1578
+10478,2026-09-04 23:25:28,eu ,web,sports,LM-SPRT-128,1,43.97,USD,cancelled,affiliate,C1296
+10479,2026-09-04 18:47:03,eu ,store,electronics,LM-ELEC-133,1,86.32,USD,paid,spring_push,C1408
+10480,2026-09-04 15:25:41,eu ,app,electronics,LM-ELEC-171,1,119.83,USD,paid,,C1753
+10481,2026-09-05 21:59:36,US,web,home,LM-HOME-185,1,188.32,USD,paid,affiliate,C1433
+10482,2026-09-05 00:49:19,EU,marketplace,electronics,LM-ELEC-178,1,88.26,USD,cancelled,affiliate,C1638
+10483,2026-09-05 04:48:46,US,web,home,LM-HOME-194,1,54.73,USD,paid,spring_push,C1248
+10484,2026-09-05 03:19:28, us,web,electronics,LM-ELEC-142,1,11.68,USD,cancelled,retarget,C1757
+10485,2026-09-05 17:30:39,EU,web,electronics,LM-ELEC-148,3,129.64,USD,paid,,C1927
+10486,2026-09-05 06:50:44,eu ,marketplace,home,LM-HOME-106,1,47.93,USD,paid,affiliate,C1670
+10487,2026-09-05 21:23:55,US,web,home,LM-HOME-137,2,161.38,USD,cancelled,affiliate,C1236
+10488,2026-09-05 19:34:05,EU,app,sports,LM-SPRT-164,1,217.75,USD,paid,affiliate,C1574
+10489,2026-09-05 09:21:31, us,app,home,LM-HOME-102,1,65.77,USD,refunded,organic,C1700
+10490,2026-09-05 08:51:03,APAC,store,beauty,LM-BEAU-103,1,239.07,USD,refunded,,C1971
+10491,2026-09-05 04:05:46, us,app,electronics,LM-ELEC-153,1,216.2,USD,cancelled,retarget,C1586
+10492,2026-09-05 04:13:41,EU,app,beauty,LM-BEAU-117,3,84.73,USD,refunded,organic,C1705
+10493,2026-09-05 20:59:36,EU,marketplace,sports,LM-SPRT-108,1,108.06,USD,paid,,C1545
+10494,2026-09-05 23:01:48,APAC,store,home,LM-HOME-152,1,82.02,USD,paid,organic,C1453
+10495,2026-09-05 04:11:01,eu ,marketplace,beauty,LM-BEAU-177,1,188.86,USD,paid,,C1627
+10496,2026-09-05 02:44:49, us,app,electronics,LM-ELEC-164,1,167.63,USD,paid,,C1480
+10497,2026-09-05 15:08:10,EU,app,beauty,LM-BEAU-104,1,205.77,USD,paid,affiliate,C1782
+10498,2026-09-05 06:48:13,US,app,beauty,LM-BEAU-156,2,60.02,USD,cancelled,,C1501
+10499,2026-09-05 19:47:52, us,marketplace,grocery,LM-GROC-150,1,107.48,USD,paid,,C1961
+10500,2026-09-05 01:33:06, us,store,sports,LM-SPRT-105,3,130.09,USD,cancelled,retarget,C1531
+10501,2026-09-05 01:12:18, us,store,home,LM-HOME-138,3,98.18,USD,cancelled,organic,C1472
+10502,2026-09-05 16:57:09, us,store,beauty,LM-BEAU-111,3,221.26,USD,cancelled,,C1115
+10503,2026-09-05 10:28:01,EU,store,sports,LM-SPRT-175,3,39.82,USD,paid,retarget,C1903
+10504,2026-09-05 05:45:46,US,web,beauty,LM-BEAU-114,1,168.63,USD,cancelled,affiliate,C1649
+10505,2026-09-05 19:10:24,eu ,store,sports,LM-SPRT-105,2,176.77,USD,refunded,retarget,C1934
+10506,2026-09-05 22:03:26,APAC,marketplace,electronics,LM-ELEC-193,1,209.63,USD,paid,affiliate,C1295
+10507,2026-09-05 19:48:16,US,store,home,LM-HOME-163,1,230.84,USD,paid,affiliate,C1556
+,2026-09-05 21:30:29, us,store,sports,LM-SPRT-110,2,63.57,USD,refunded,,C1614
+10509,2026-09-05 06:03:11,EU,web,sports,LM-SPRT-183,1,151.98,USD,refunded,organic,C1037
+10510,2026-09-05 10:58:05,US,web,home,LM-HOME-153,3,202.5,USD,paid,retarget,C1165
+10511,2026-09-05 05:29:47,eu ,marketplace,sports,LM-SPRT-104,3,140.98,USD,refunded,spring_push,C1786
+10512,2026-09-05 17:04:18, us,app,beauty,LM-BEAU-115,2,198.39,USD,paid,organic,C1337
+10513,2026-09-05 01:06:36,eu ,web,sports,LM-SPRT-161,1,169.58,USD,refunded,,C1956
+10514,2026-09-05 08:33:36,eu ,marketplace,beauty,LM-BEAU-116,2,149.45,USD,paid,,C1576
+10515,2026-09-05 07:45:18,EU,web,grocery,LM-GROC-115,2,195.55,USD,refunded,spring_push,C1476
+10516,2026-09-05 13:02:21,APAC,app,home,LM-HOME-101,1,193.6,USD,paid,retarget,C1706
+10517,2026-09-05 10:49:00,US,marketplace,home,LM-HOME-143,1,78.02,USD,refunded,affiliate,C1741
+10518,2026-09-05 21:30:58, us,web,home,LM-HOME-182,1,53.41,USD,paid,retarget,C1493
+10519,2026-09-05 13:59:47,US,marketplace,grocery,LM-GROC-172,3,215.91,USD,paid,organic,C1568
+10520,2026-09-05 02:09:17,US,marketplace,electronics,LM-ELEC-148,3,167.19,USD,paid,,C1862
+10521,2026-09-05 09:45:54,APAC,web,sports,LM-SPRT-134,2,51.88,USD,paid,affiliate,C1088
+10522,2026-09-05 06:33:19,EU,web,electronics,LM-ELEC-147,1,113.12,USD,paid,spring_push,C1796
+10523,2026-09-05 16:09:12,APAC,store,home,LM-HOME-193,2,125.64,USD,paid,,C1317
+,2026-09-05 21:08:13,US,store,electronics,LM-ELEC-149,1,198.83,USD,refunded,,C1118
+10525,2026-09-05 14:56:02,US,marketplace,home,LM-HOME-102,3,210.34,USD,paid,,C1776
+10526,2026-09-05 08:34:20, us,web,electronics,LM-ELEC-134,1,54.93,USD,paid,retarget,C1161
+10527,2026-09-05 06:34:22,eu ,marketplace,home,LM-HOME-134,3,138.05,USD,paid,retarget,C1965
+10528,2026-09-05 09:39:57,APAC,store,beauty,LM-BEAU-106,3,65.18,USD,paid,retarget,C1029
+10529,2026-09-05 13:25:11,eu ,store,home,LM-HOME-178,1,97.3,USD,paid,organic,C1319
+10530,2026-09-05 18:08:05, us,web,electronics,LM-ELEC-158,3,26.68,USD,paid,organic,C1700
+10531,2026-09-05 04:55:57,eu ,marketplace,grocery,LM-GROC-146,2,62.14,USD,paid,affiliate,C1187
+10532,2026-09-05 02:30:07,APAC,store,beauty,LM-BEAU-159,1,113.44,USD,paid,retarget,C1289
+10533,2026-09-05 12:52:45,US,marketplace,sports,LM-SPRT-171,3,37.99,USD,paid,spring_push,C1811
+10534,2026-09-05 19:15:35,EU,store,grocery,LM-GROC-149,2,145.21,USD,paid,spring_push,C1348
+10535,2026-09-05 18:50:21,eu ,app,sports,LM-SPRT-122,2,190.07,USD,paid,spring_push,C1757
+10536,2026-09-05 14:20:35,US,store,sports,LM-SPRT-122,2,34.97,USD,refunded,organic,C1978
+10537,2026-09-05 12:20:31,US,web,sports,LM-SPRT-127,1,167.2,USD,refunded,retarget,C1908
+10538,2026-09-05 17:18:24,eu ,store,home,LM-HOME-125,1,161.49,USD,paid,retarget,C1697
+10539,2026-09-05 09:58:59, us,marketplace,beauty,LM-BEAU-111,3,192.39,USD,cancelled,,C1008
+10540,2026-09-05 01:23:57,eu ,web,sports,LM-SPRT-100,2,204.73,USD,paid,,C1840
+10541,2026-09-05 13:44:37, us,marketplace,home,LM-HOME-191,1,208.9,USD,paid,affiliate,C1415
+10542,2026-09-05 04:12:35, us,marketplace,sports,LM-SPRT-153,1,161.87,USD,paid,retarget,C1295
+10543,2026-09-05 00:09:46, us,store,electronics,LM-ELEC-117,1,11.19,USD,cancelled,spring_push,C1140
+10544,2026-09-05 19:59:27,eu ,app,grocery,LM-GROC-158,2,215.36,USD,cancelled,,C1434
+10545,2026-09-05 13:38:00,eu ,store,grocery,LM-GROC-193,2,90.75,USD,paid,retarget,C1729
+10546,2026-09-05 01:36:30,APAC,web,grocery,LM-GROC-174,3,141.93,USD,paid,affiliate,C1984
+10547,2026-09-05 14:33:05,eu ,web,electronics,LM-ELEC-131,3,236.2,USD,paid,affiliate,C1645
+10548,2026-09-05 19:03:57,APAC,web,home,LM-HOME-160,3,193.26,USD,paid,affiliate,C1524
+10549,2026-09-05 09:10:02,eu ,marketplace,sports,LM-SPRT-193,1,105.97,USD,paid,,C1266
+10550,2026-09-05 21:18:51,eu ,web,grocery,LM-GROC-136,3,47.64,USD,paid,affiliate,C1084
+10551,2026-09-05 08:17:54,APAC,web,home,LM-HOME-194,1,66.85,USD,refunded,spring_push,C1618
+10552,2026-09-05 05:16:50,EU,store,sports,LM-SPRT-123,,161.09,USD,paid,,C1882
+10553,2026-09-05 15:48:26, us,app,home,LM-HOME-184,1,146.37,USD,paid,affiliate,C1743
+10554,2026-09-05 01:41:16,US,web,electronics,LM-ELEC-121,3,178.5,USD,paid,affiliate,C1408
+10555,2026-09-05 22:24:30,APAC,app,grocery,LM-GROC-167,3,62.59,USD,cancelled,affiliate,C1012
+10556,2026-09-05 21:02:06,eu ,marketplace,grocery,LM-GROC-155,2,165.57,USD,refunded,,C1940
+10557,2026-09-05 08:41:37, us,store,beauty,LM-BEAU-198,1,71.08,USD,paid,retarget,C1751
+10558,2026-09-05 05:20:35,US,web,electronics,LM-ELEC-108,3,86.61,USD,cancelled,spring_push,C1421
+10559,2026-09-05 09:16:12,US,web,home,LM-HOME-179,2,89.88,USD,cancelled,spring_push,C1058
+10560,2026-09-05 03:05:54,eu ,app,electronics,LM-ELEC-148,3,156.22,USD,cancelled,,C1822
+10561,2026-09-05 21:59:04, us,marketplace,home,LM-HOME-198,1,67.15,USD,paid,affiliate,C1708
+10562,2026-09-05 08:49:03, us,store,beauty,LM-BEAU-142,1,46.0,USD,paid,spring_push,C1264
+10563,2026-09-05 06:39:25,EU,store,beauty,LM-BEAU-113,1,110.49,USD,paid,retarget,C1553
+10564,2026-09-05 22:16:06,US,web,electronics,LM-ELEC-109,3,157.43,USD,paid,,C1745
+10565,2026-09-05 20:40:00,US,store,grocery,LM-GROC-134,1,216.04,USD,paid,retarget,C1716
+10566,2026-09-05 15:30:27, us,web,grocery,LM-GROC-169,3,9.36,USD,cancelled,retarget,C1003
+10567,2026-09-05 10:43:19, us,web,grocery,LM-GROC-180,1,139.82,USD,paid,spring_push,C1374
+10568,2026-09-05 20:12:11,eu ,web,beauty,LM-BEAU-149,1,203.23,USD,paid,retarget,C1306
+10569,2026-09-05 14:47:12,EU,web,home,LM-HOME-124,1,121.13,USD,cancelled,spring_push,C1737
+10570,2026-09-05 20:19:31,eu ,store,electronics,LM-ELEC-102,2,98.5,USD,refunded,spring_push,C1347
+10571,2026-09-05 21:33:29,eu ,app,home,LM-HOME-194,2,35.86,USD,cancelled,,C1238
+10572,2026-09-05 15:58:58,eu ,web,home,LM-HOME-131,1,121.68,USD,paid,retarget,C1014
+10573,2026-09-05 14:39:10,eu ,web,home,LM-HOME-113,1,198.5,USD,paid,spring_push,C1509
+10574,2026-09-05 13:21:51, us,marketplace,sports,LM-SPRT-115,1,23.11,USD,paid,,C1558
+10575,2026-09-05 02:07:17,EU,store,electronics,LM-ELEC-121,1,145.8,USD,paid,organic,C1566
+,2026-09-05 20:39:24,EU,web,electronics,LM-ELEC-162,3,17.92,USD,paid,spring_push,C1006
+10577,2026-09-05 22:51:50, us,app,home,LM-HOME-126,3,213.82,USD,paid,retarget,C1655
+10578,2026-09-05 19:44:02,eu ,app,grocery,LM-GROC-191,2,63.89,USD,paid,affiliate,C1626
+10579,2026-09-05 07:12:07,eu ,web,beauty,LM-BEAU-179,1,105.45,USD,refunded,organic,C1883
+10580,2026-09-05 21:13:17,US,app,sports,LM-SPRT-114,3,59.26,USD,cancelled,retarget,C1701
+10581,2026-09-05 01:03:41,APAC,marketplace,grocery,LM-GROC-126,2,49.32,USD,cancelled,affiliate,C1257
+10582,2026-09-05 17:11:10,US,store,grocery,LM-GROC-165,1,32.67,USD,paid,spring_push,C1072
+10583,2026-09-05 06:47:43,APAC,app,grocery,LM-GROC-199,3,142.71,USD,paid,spring_push,C1333
+10584,2026-09-05 07:04:30,eu ,store,electronics,LM-ELEC-106,2,209.88,USD,paid,affiliate,C1148
+10585,2026-09-05 04:29:46,EU,marketplace,sports,LM-SPRT-134,2,49.72,USD,paid,retarget,C1343
+10586,2026-09-06 14:26:10,APAC,app,home,LM-HOME-137,1,40.1,USD,paid,,C1160
+10587,2026-09-06 07:05:26,eu ,store,sports,LM-SPRT-127,1,142.34,USD,refunded,,C1484
+10588,2026-09-06 07:15:20, us,app,beauty,LM-BEAU-175,1,177.5,USD,cancelled,retarget,C1935
+10589,2026-09-06 15:46:49,eu ,web,home,LM-HOME-154,2,235.41,USD,paid,,C1403
+10590,2026-09-06 17:48:00, us,app,home,LM-HOME-116,2,123.16,USD,paid,organic,C1302
+10591,2026-09-06 05:45:29,eu ,web,home,LM-HOME-158,1,119.57,USD,paid,affiliate,C1790
+10592,2026-09-06 20:29:45,US,web,grocery,LM-GROC-149,,191.35,USD,paid,organic,C1543
+10593,2026-09-06 17:36:50,EU,web,grocery,LM-GROC-179,1,170.1,USD,refunded,organic,C1753
+10594,2026-09-06 12:23:29,eu ,web,sports,LM-SPRT-146,1,214.07,USD,paid,organic,C1179
+10595,2026-09-06 04:21:15,eu ,web,home,LM-HOME-183,3,172.71,USD,paid,affiliate,C1755
+10596,2026-09-06 10:22:57,APAC,store,sports,LM-SPRT-135,1,182.86,USD,paid,spring_push,C1064
+10597,2026-09-06 15:45:34,eu ,marketplace,grocery,LM-GROC-157,2,124.59,USD,paid,,C1376
+10598,2026-09-06 02:05:25,EU,marketplace,home,LM-HOME-109,1,214.98,USD,paid,spring_push,C1168
+10599,2026-09-06 16:40:01,APAC,store,electronics,LM-ELEC-187,2,43.34,USD,paid,,C1954
+10600,2026-09-06 00:18:12,US,web,beauty,LM-BEAU-129,2,111.25,USD,cancelled,,C1660
+10601,2026-09-06 15:37:42,eu ,store,sports,LM-SPRT-158,1,160.31,USD,paid,organic,C1580
+10602,2026-09-06 15:23:18,US,app,beauty,LM-BEAU-145,1,191.22,USD,paid,organic,C1466
+10603,2026-09-06 05:11:53,EU,app,sports,LM-SPRT-130,1,173.28,USD,paid,spring_push,C1042
+10604,2026-09-06 05:13:35,US,marketplace,sports,LM-SPRT-144,1,110.57,USD,paid,retarget,C1381
+10605,2026-09-06 12:59:31,EU,store,electronics,LM-ELEC-140,3,78.31,USD,paid,retarget,C1004
+10606,2026-09-06 09:30:57,APAC,app,sports,LM-SPRT-172,3,85.19,USD,cancelled,affiliate,C1346
+10607,2026-09-06 03:19:01, us,app,grocery,LM-GROC-157,1,40.78,USD,refunded,organic,C1094
+10608,2026-09-06 08:12:01,US,store,sports,LM-SPRT-186,1,143.56,USD,paid,spring_push,C1999
+10609,2026-09-06 16:03:58,APAC,store,electronics,LM-ELEC-118,2,82.06,USD,refunded,affiliate,C1378
+10610,2026-09-06 14:55:35,US,app,home,LM-HOME-193,1,88.35,USD,paid,affiliate,C1759
+10611,2026-09-06 13:46:57, us,app,grocery,LM-GROC-175,1,46.42,USD,cancelled,,C1088
+10612,2026-09-06 10:04:59,eu ,store,beauty,LM-BEAU-111,2,237.31,USD,refunded,spring_push,C1419
+10613,2026-09-06 22:36:48,EU,app,beauty,LM-BEAU-123,2,48.99,USD,paid,affiliate,C1296
+10614,2026-09-06 15:35:47, us,app,home,LM-HOME-103,1,201.71,USD,paid,spring_push,C1157
+10615,2026-09-06 13:11:31,EU,web,grocery,LM-GROC-115,1,159.86,USD,paid,organic,C1504
+10616,2026-09-06 15:36:27,APAC,store,home,LM-HOME-188,3,181.1,USD,refunded,spring_push,C1382
+10617,2026-09-06 18:03:09,APAC,store,sports,LM-SPRT-188,1,204.18,USD,paid,retarget,C1365
+10618,2026-09-06 01:18:18,eu ,web,beauty,LM-BEAU-165,1,105.62,USD,paid,retarget,C1784
+10619,2026-09-06 10:55:20,APAC,marketplace,home,LM-HOME-187,3,182.73,USD,refunded,organic,C1098
+10620,2026-09-06 09:23:49, us,store,beauty,LM-BEAU-143,1,11.49,USD,refunded,retarget,C1104
+10621,2026-09-06 19:44:53,eu ,web,sports,LM-SPRT-153,1,201.01,USD,refunded,affiliate,C1938
+10622,2026-09-06 22:23:08, us,marketplace,electronics,LM-ELEC-122,1,119.51,USD,paid,organic,C1029
+10623,2026-09-06 04:44:14,APAC,app,home,LM-HOME-126,1,38.3,USD,cancelled,retarget,C1080
+10624,2026-09-06 13:02:12,US,web,home,LM-HOME-184,1,12.85,USD,paid,,C1607
+10625,2026-09-06 21:00:48,US,web,home,LM-HOME-177,1,18.52,USD,paid,retarget,C1601
+10626,2026-09-06 23:17:37,APAC,marketplace,electronics,LM-ELEC-120,1,15.27,USD,paid,,C1799
+10627,2026-09-06 18:48:00,eu ,app,electronics,LM-ELEC-191,3,140.51,USD,paid,retarget,C1987
+10628,2026-09-06 06:58:32, us,marketplace,sports,LM-SPRT-189,1,233.88,USD,paid,,C1189
+10629,2026-09-06 13:13:32,EU,store,home,LM-HOME-114,1,201.74,USD,paid,organic,C1126
+10630,2026-09-06 22:18:35,US,web,sports,LM-SPRT-141,1,123.28,USD,paid,affiliate,C1118
+10631,2026-09-06 14:14:35, us,marketplace,grocery,LM-GROC-154,3,178.92,USD,cancelled,retarget,C1877
+10632,2026-09-06 15:43:06, us,store,grocery,LM-GROC-166,1,50.01,USD,cancelled,spring_push,C1122
+10633,2026-09-06 05:04:23,EU,marketplace,grocery,LM-GROC-125,3,234.81,USD,cancelled,,C1864
+10634,2026-09-06 15:17:48,eu ,marketplace,home,LM-HOME-196,1,202.52,USD,cancelled,affiliate,C1364
+10635,2026-09-06 08:09:49, us,web,sports,LM-SPRT-115,2,237.11,USD,refunded,organic,C1501
+10636,2026-09-06 02:31:43,US,app,electronics,LM-ELEC-148,1,31.56,USD,paid,,C1695
+10637,2026-09-06 21:48:33, us,store,beauty,LM-BEAU-125,3,152.78,USD,paid,organic,C1677
+10638,2026-09-06 17:01:48,US,store,sports,LM-SPRT-115,1,134.07,USD,refunded,affiliate,C1460
+10639,2026-09-06 05:35:42,APAC,app,grocery,LM-GROC-162,2,114.91,USD,paid,affiliate,C1137
+10640,2026-09-06 21:31:42,eu ,store,grocery,LM-GROC-160,2,185.37,USD,refunded,,C1874
+10641,2026-09-06 12:39:43,APAC,marketplace,home,LM-HOME-141,2,69.48,USD,refunded,spring_push,C1028
+10642,2026-09-06 18:01:48,APAC,store,electronics,LM-ELEC-112,1,89.26,USD,cancelled,affiliate,C1353
+10643,2026-09-06 07:15:41,APAC,web,grocery,LM-GROC-188,1,21.57,USD,paid,spring_push,C1889
+10644,2026-09-06 01:29:42, us,store,beauty,LM-BEAU-134,1,13.06,USD,paid,spring_push,C1712
+10645,2026-09-06 10:36:06, us,web,home,LM-HOME-188,1,95.95,USD,paid,retarget,C1344
+10646,2026-09-06 13:12:31,US,app,beauty,LM-BEAU-136,1,150.83,USD,paid,organic,C1048
+10647,2026-09-06 23:05:45,eu ,web,sports,LM-SPRT-175,2,194.77,USD,refunded,organic,C1279
+10648,2026-09-06 02:41:52,APAC,marketplace,sports,LM-SPRT-155,2,107.38,USD,paid,,C1320
+10649,2026-09-06 21:48:35,EU,web,grocery,LM-GROC-180,1,153.18,USD,paid,,C1883
+10650,2026-09-06 14:17:59,eu ,store,grocery,LM-GROC-172,1,161.48,USD,cancelled,spring_push,C1534
+10651,2026-09-06 21:48:19, us,store,grocery,LM-GROC-140,1,64.15,USD,cancelled,spring_push,C1649
+10652,2026-09-06 05:16:43,eu ,app,grocery,LM-GROC-151,1,199.19,USD,cancelled,retarget,C1116
+10653,2026-09-06 14:31:35, us,store,home,LM-HOME-182,1,193.02,USD,paid,spring_push,C1206
+10654,2026-09-06 21:35:11,US,store,electronics,LM-ELEC-102,1,68.32,USD,paid,spring_push,C1880
+10655,2026-09-06 13:57:23,US,store,beauty,LM-BEAU-192,3,77.48,USD,paid,retarget,C1241
+10656,2026-09-06 16:16:31,US,app,sports,LM-SPRT-176,1,129.33,USD,refunded,spring_push,C1791
+10657,2026-09-06 23:15:59, us,app,beauty,LM-BEAU-118,3,179.17,USD,cancelled,spring_push,C1179
+10658,2026-09-06 01:31:34,APAC,web,beauty,LM-BEAU-140,2,103.04,USD,refunded,,C1433
+10659,2026-09-06 11:30:45,APAC,marketplace,electronics,LM-ELEC-102,1,212.09,USD,paid,,C1035
+10660,2026-09-06 09:40:44,APAC,web,home,LM-HOME-168,1,67.07,USD,paid,retarget,C1878
+10661,2026-09-06 09:05:59,EU,marketplace,home,LM-HOME-126,2,223.22,USD,paid,retarget,C1937
+10662,2026-09-06 02:52:49, us,store,beauty,LM-BEAU-194,2,191.23,USD,paid,affiliate,C1948
+10663,2026-09-06 08:32:04,APAC,store,grocery,LM-GROC-177,1,199.35,USD,cancelled,,C1755
+10664,2026-09-06 20:28:50,EU,web,home,LM-HOME-151,1,156.98,USD,paid,retarget,C1643
+10665,2026-09-06 16:45:49,EU,store,sports,LM-SPRT-140,1,34.16,USD,paid,affiliate,C1489
+10666,2026-09-06 10:51:18,EU,web,electronics,LM-ELEC-153,1,48.66,USD,refunded,organic,C1186
+10667,2026-09-06 17:41:39,EU,web,grocery,LM-GROC-159,3,60.47,USD,paid,retarget,C1268
+,2026-09-06 19:16:09,US,marketplace,electronics,LM-ELEC-121,1,101.34,USD,paid,,C1120
+10669,2026-09-06 21:31:07,EU,app,sports,LM-SPRT-124,2,187.53,USD,paid,organic,C1294
+10670,2026-09-06 19:13:52,APAC,app,grocery,LM-GROC-153,1,108.35,USD,paid,retarget,C1418
+,2026-09-06 19:28:58,EU,marketplace,home,LM-HOME-174,1,234.47,USD,paid,affiliate,C1087
+10672,2026-09-06 21:13:45, us,store,electronics,LM-ELEC-194,1,234.07,USD,paid,,C1262
+10673,2026-09-06 15:58:22,eu ,web,sports,LM-SPRT-100,1,20.56,USD,paid,organic,C1516
+10674,2026-09-06 17:02:37,EU,marketplace,beauty,LM-BEAU-121,2,163.9,USD,paid,,C1504
+10675,2026-09-06 16:27:09,APAC,web,grocery,LM-GROC-140,1,29.25,USD,cancelled,spring_push,C1130
+10676,2026-09-06 08:39:53,APAC,marketplace,beauty,LM-BEAU-155,1,222.92,USD,paid,retarget,C1323
+10677,2026-09-06 20:51:28,US,app,grocery,LM-GROC-119,1,137.14,USD,cancelled,spring_push,C1235
+10678,2026-09-06 13:07:57, us,web,grocery,LM-GROC-156,1,46.36,USD,paid,organic,C1726
+10679,2026-09-06 04:07:22,US,app,grocery,LM-GROC-136,2,34.54,USD,cancelled,retarget,C1854
+10680,2026-09-06 18:13:37,US,app,sports,LM-SPRT-153,1,138.89,USD,cancelled,spring_push,C1252
+10681,2026-09-06 21:07:25,APAC,web,home,LM-HOME-141,1,14.51,USD,cancelled,retarget,C1029
+10682,2026-09-06 19:42:00,APAC,web,grocery,LM-GROC-183,2,153.96,USD,paid,,C1973
+10683,2026-09-06 20:18:20,US,web,sports,LM-SPRT-170,1,57.43,USD,paid,,C1390
+10684,2026-09-06 02:01:54,EU,app,beauty,LM-BEAU-149,1,64.08,USD,paid,affiliate,C1291
+10685,2026-09-06 23:51:58,APAC,app,electronics,LM-ELEC-145,1,77.61,USD,paid,spring_push,C1852
+10686,2026-09-06 15:17:36,eu ,store,electronics,LM-ELEC-111,2,111.62,USD,paid,affiliate,C1830
+10687,2026-09-06 01:32:21, us,app,electronics,LM-ELEC-182,2,154.5,USD,paid,retarget,C1953
+10688,2026-09-06 02:58:51, us,marketplace,sports,LM-SPRT-119,1,75.8,USD,paid,retarget,C1700
+10689,2026-09-06 01:35:04,US,web,electronics,LM-ELEC-165,3,107.52,USD,refunded,affiliate,C1422
+10690,2026-09-06 02:49:32,US,web,sports,LM-SPRT-194,1,90.79,USD,refunded,affiliate,C1183
+10691,2026-09-06 09:20:37, us,store,grocery,LM-GROC-179,1,27.78,USD,cancelled,organic,C1349
+10692,2026-09-06 19:16:55,US,store,electronics,LM-ELEC-168,1,51.35,USD,cancelled,spring_push,C1005
+10693,2026-09-06 22:25:55,eu ,store,home,LM-HOME-138,1,160.32,USD,paid,,C1832
+10694,2026-09-06 04:08:00,EU,web,beauty,LM-BEAU-102,2,N/A,USD,paid,retarget,C1879
+10695,2026-09-06 20:54:50,eu ,app,grocery,LM-GROC-111,1,158.91,USD,paid,organic,C1788
+10696,2026-09-06 04:47:44, us,store,grocery,LM-GROC-160,2,13.55,USD,paid,spring_push,C1880
+10697,2026-09-06 01:21:00,US,store,electronics,LM-ELEC-153,1,76.75,USD,paid,affiliate,C1754
+10698,2026-09-06 15:32:37,eu ,store,sports,LM-SPRT-129,1,N/A,USD,paid,spring_push,C1540
+10699,2026-09-06 20:26:56, us,web,sports,LM-SPRT-163,1,136.58,USD,paid,,C1961
+10700,2026-09-06 23:12:30,APAC,store,grocery,LM-GROC-129,2,13.32,USD,paid,,C1224
+10701,2026-09-06 21:29:08,APAC,store,beauty,LM-BEAU-153,3,206.07,USD,cancelled,organic,C1815
+10702,2026-09-06 23:05:42, us,app,electronics,LM-ELEC-122,3,56.47,USD,cancelled,retarget,C1160
+10703,2026-09-06 09:15:13,eu ,web,home,LM-HOME-102,2,226.82,USD,paid,organic,C1902
+10704,2026-09-06 01:51:04,APAC,store,electronics,LM-ELEC-114,1,200.17,USD,refunded,,C1232
+10705,2026-09-06 11:49:02,eu ,marketplace,electronics,LM-ELEC-119,2,68.19,USD,paid,,C1618
+10706,2026-09-06 03:50:39,eu ,web,home,LM-HOME-171,2,193.47,USD,paid,spring_push,C1519
+10707,2026-09-06 23:18:45, us,store,home,LM-HOME-193,1,219.39,USD,paid,spring_push,C1157
+10708,2026-09-06 14:26:49,US,app,beauty,LM-BEAU-160,1,36.97,USD,paid,organic,C1293
+10709,2026-09-06 11:40:42,EU,app,home,LM-HOME-196,1,94.72,USD,paid,,C1431
+,2026-09-06 14:54:33,APAC,web,electronics,LM-ELEC-156,2,104.2,USD,paid,retarget,C1788
+10711,2026-09-06 12:49:10, us,web,sports,LM-SPRT-150,1,28.13,USD,paid,spring_push,C1676
+10712,2026-09-07 21:56:33,APAC,store,sports,LM-SPRT-151,1,234.85,USD,cancelled,,C1894
+10713,2026-09-07 16:39:58,EU,store,beauty,LM-BEAU-157,1,10.33,USD,paid,retarget,C1908
+10714,2026-09-07 12:49:12,APAC,web,sports,LM-SPRT-104,2,169.96,USD,cancelled,,C1342
+10715,2026-09-07 06:05:32,eu ,marketplace,electronics,LM-ELEC-166,3,238.13,USD,paid,organic,C1775
+10716,2026-09-07 18:16:15,APAC,store,home,LM-HOME-164,1,214.61,USD,refunded,spring_push,C1749
+,2026-09-07 03:03:48,US,store,beauty,LM-BEAU-138,1,153.65,USD,paid,,C1754
+10718,2026-09-07 18:45:57,eu ,app,beauty,LM-BEAU-144,1,194.95,USD,refunded,organic,C1291
+10719,2026-09-07 23:15:06,APAC,app,sports,LM-SPRT-199,1,173.87,USD,refunded,organic,C1465
+10720,2026-09-07 13:56:08, us,app,grocery,LM-GROC-157,2,27.47,USD,paid,spring_push,C1378
+10721,2026-09-07 08:37:31, us,store,grocery,LM-GROC-188,3,137.9,USD,paid,affiliate,C1749
+10722,2026-09-07 22:29:08,eu ,web,electronics,LM-ELEC-188,1,125.59,USD,paid,retarget,C1466
+10723,2026-09-07 19:54:26,US,web,electronics,LM-ELEC-147,3,94.0,USD,paid,,C1296
+10724,2026-09-07 09:18:31,US,app,electronics,LM-ELEC-118,1,94.49,USD,paid,,C1431
+10725,2026-09-07 15:00:07,eu ,marketplace,beauty,LM-BEAU-108,1,58.41,USD,cancelled,spring_push,C1427
+10726,2026-09-07 12:30:53,eu ,app,beauty,LM-BEAU-197,3,113.22,USD,paid,retarget,C1516
+10727,2026-09-07 10:05:51,eu ,store,grocery,LM-GROC-149,2,42.99,USD,cancelled,retarget,C1921
+10728,2026-09-07 23:17:41,US,app,sports,LM-SPRT-190,1,230.3,USD,paid,spring_push,C1585
+10729,2026-09-07 17:05:12,eu ,web,beauty,LM-BEAU-172,3,157.85,USD,cancelled,,C1193
+10730,2026-09-07 05:01:17,EU,app,sports,LM-SPRT-190,1,36.35,USD,refunded,,C1454
+10731,2026-09-07 01:31:55,US,marketplace,sports,LM-SPRT-155,3,N/A,USD,refunded,retarget,C1424
+10732,2026-09-07 03:06:34,EU,marketplace,sports,LM-SPRT-118,1,96.94,USD,paid,retarget,C1261
+10733,2026-09-07 05:03:39,APAC,app,electronics,LM-ELEC-103,1,228.93,USD,cancelled,spring_push,C1305
+10734,2026-09-07 08:24:52,US,web,beauty,LM-BEAU-125,1,104.07,USD,paid,retarget,C1770
+10735,2026-09-07 12:07:17,US,marketplace,electronics,LM-ELEC-159,2,126.25,USD,refunded,,C1416
+10736,2026-09-07 08:35:37,US,app,home,LM-HOME-197,2,155.16,USD,paid,,C1667
+10737,2026-09-07 20:32:13,EU,marketplace,beauty,LM-BEAU-169,3,102.66,USD,paid,retarget,C1800
+10738,2026-09-07 14:53:39,APAC,app,grocery,LM-GROC-100,3,113.08,USD,paid,spring_push,C1955
+10739,2026-09-07 12:22:53,EU,marketplace,beauty,LM-BEAU-105,3,66.58,USD,cancelled,retarget,C1756
+10740,2026-09-07 03:53:08,eu ,marketplace,home,LM-HOME-155,1,29.27,USD,cancelled,retarget,C1625
+10741,2026-09-07 14:17:15,APAC,marketplace,beauty,LM-BEAU-126,1,155.54,USD,cancelled,affiliate,C1982
+10742,2026-09-07 19:30:00,US,app,home,LM-HOME-152,1,158.15,USD,paid,,C1916
+10743,2026-09-07 20:04:34,US,store,grocery,LM-GROC-186,2,133.08,USD,cancelled,spring_push,C1361
+10744,2026-09-07 22:00:07, us,marketplace,grocery,LM-GROC-124,3,91.37,USD,paid,affiliate,C1009
+10745,2026-09-07 11:12:05,eu ,marketplace,home,LM-HOME-191,1,166.05,USD,cancelled,retarget,C1239
+10746,2026-09-07 22:38:13,US,app,beauty,LM-BEAU-181,1,73.5,USD,cancelled,affiliate,C1113
+10747,2026-09-07 06:42:47,eu ,app,sports,LM-SPRT-108,3,122.86,USD,refunded,,C1131
+10748,2026-09-07 16:46:50,APAC,app,electronics,LM-ELEC-186,1,224.62,USD,paid,spring_push,C1993
+10749,2026-09-07 14:00:27,US,marketplace,sports,LM-SPRT-155,3,67.05,USD,refunded,affiliate,C1280
+10750,2026-09-07 01:56:46,EU,web,sports,LM-SPRT-135,2,123.23,USD,refunded,affiliate,C1545
+10751,2026-09-07 18:51:01,EU,store,home,LM-HOME-109,2,53.55,USD,paid,retarget,C1201
+10752,2026-09-07 00:30:27,US,marketplace,beauty,LM-BEAU-132,1,153.42,USD,paid,retarget,C1110
+10753,2026-09-07 07:04:49,eu ,store,beauty,LM-BEAU-197,1,198.71,USD,refunded,spring_push,C1640
+10754,2026-09-07 12:20:56,US,app,home,LM-HOME-107,1,234.1,USD,paid,affiliate,C1056
+10755,2026-09-07 17:03:18, us,store,grocery,LM-GROC-112,1,32.07,USD,paid,,C1770
+10756,2026-09-07 14:50:27,eu ,web,sports,LM-SPRT-143,3,10.96,USD,paid,spring_push,C1464
+10757,2026-09-07 19:45:04,eu ,app,sports,LM-SPRT-173,1,33.5,USD,paid,retarget,C1652
+10758,2026-09-07 14:11:15,EU,web,beauty,LM-BEAU-107,2,119.94,USD,refunded,retarget,C1319
+,2026-09-07 04:09:30,APAC,marketplace,sports,LM-SPRT-137,1,80.54,USD,refunded,organic,C1993
+10760,2026-09-07 17:54:03, us,marketplace,sports,LM-SPRT-125,1,21.77,USD,refunded,retarget,C1655
+10761,2026-09-07 22:44:29,eu ,marketplace,home,LM-HOME-174,1,52.34,USD,paid,,C1986
+10762,2026-09-07 14:56:50,US,store,beauty,LM-BEAU-128,2,84.58,USD,paid,spring_push,C1654
+10763,2026-09-07 15:47:49,APAC,store,electronics,LM-ELEC-126,2,152.94,USD,paid,affiliate,C1188
+10764,2026-09-07 00:35:07,EU,marketplace,home,LM-HOME-156,1,10.79,USD,paid,retarget,C1646
+10765,2026-09-07 06:18:11,EU,marketplace,beauty,LM-BEAU-192,1,234.28,USD,paid,retarget,C1347
+10766,2026-09-07 08:58:06,US,app,electronics,LM-ELEC-148,1,53.87,USD,paid,spring_push,C1346
+10767,2026-09-07 21:10:33,eu ,store,beauty,LM-BEAU-191,2,64.09,USD,paid,spring_push,C1121
+10768,2026-09-07 22:23:20,eu ,store,electronics,LM-ELEC-181,1,52.87,USD,paid,retarget,C1943
+10769,2026-09-07 09:50:09,APAC,app,sports,LM-SPRT-106,3,52.28,USD,refunded,organic,C1893
+10770,2026-09-07 23:05:50, us,web,sports,LM-SPRT-121,3,213.57,USD,paid,,C1397
+10771,2026-09-07 05:20:45,APAC,store,sports,LM-SPRT-191,1,123.92,USD,paid,affiliate,C1485
+10772,2026-09-07 07:57:12, us,app,grocery,LM-GROC-150,3,158.91,USD,paid,retarget,C1313
+10773,2026-09-07 08:35:05,EU,web,grocery,LM-GROC-137,3,44.89,USD,paid,affiliate,C1531
+10774,2026-09-07 10:27:28, us,store,sports,LM-SPRT-152,1,116.21,USD,refunded,organic,C1823
+10775,2026-09-07 07:16:41,US,marketplace,beauty,LM-BEAU-110,2,14.22,USD,paid,organic,C1862
+10776,2026-09-07 03:07:04,APAC,web,sports,LM-SPRT-169,1,190.43,USD,paid,retarget,C1341
+10777,2026-09-07 08:12:45,eu ,app,beauty,LM-BEAU-196,1,78.58,USD,cancelled,,C1934
+10778,2026-09-07 12:52:37,US,store,beauty,LM-BEAU-183,1,198.86,USD,paid,,C1779
+10779,2026-09-07 06:30:14,eu ,store,grocery,LM-GROC-192,1,61.03,USD,cancelled,affiliate,C1348
+10780,2026-09-07 13:13:28, us,web,beauty,LM-BEAU-147,1,107.77,USD,cancelled,retarget,C1591
+10781,2026-09-07 11:21:14, us,store,beauty,LM-BEAU-187,1,124.2,USD,cancelled,affiliate,C1781
+10782,2026-09-07 18:50:02,EU,app,sports,LM-SPRT-142,1,83.99,USD,paid,,C1644
+10783,2026-09-07 06:25:04,eu ,store,sports,LM-SPRT-124,3,209.2,USD,paid,affiliate,C1111
+10784,2026-09-07 21:35:11,US,store,grocery,LM-GROC-103,1,30.09,USD,paid,retarget,C1203
+10785,2026-09-07 21:33:04, us,web,grocery,LM-GROC-147,1,56.16,USD,paid,,C1011
+10786,2026-09-07 04:34:26, us,web,grocery,LM-GROC-149,2,44.85,USD,paid,retarget,C1133
+10787,2026-09-07 15:10:38,eu ,marketplace,beauty,LM-BEAU-175,2,197.84,USD,cancelled,retarget,C1514
+10788,2026-09-07 14:04:52, us,app,grocery,LM-GROC-167,1,55.19,USD,paid,organic,C1932
+10789,2026-09-07 23:05:18, us,marketplace,grocery,LM-GROC-189,2,115.61,USD,paid,organic,C1400
+10790,2026-09-07 23:27:29, us,app,electronics,LM-ELEC-189,2,66.17,USD,refunded,,C1097
+10791,2026-09-07 08:56:40,eu ,marketplace,home,LM-HOME-185,1,213.5,USD,paid,spring_push,C1714
+10792,2026-09-07 03:23:04,US,marketplace,electronics,LM-ELEC-152,2,103.71,USD,refunded,affiliate,C1168
+10793,2026-09-07 20:44:43, us,store,sports,LM-SPRT-143,1,115.49,USD,paid,affiliate,C1876
+10794,2026-09-07 04:20:42, us,store,home,LM-HOME-159,1,66.52,USD,cancelled,spring_push,C1084
+10795,2026-09-07 05:10:53,US,web,electronics,LM-ELEC-122,2,40.97,USD,paid,organic,C1127
+10796,2026-09-07 21:17:09, us,marketplace,grocery,LM-GROC-122,,26.46,USD,paid,retarget,C1731
+10797,2026-09-07 20:51:33,US,store,sports,LM-SPRT-188,1,110.84,USD,paid,organic,C1454
+10798,2026-09-07 07:23:58,EU,app,home,LM-HOME-111,1,N/A,USD,paid,spring_push,C1431
+10799,2026-09-07 21:04:14,US,app,home,LM-HOME-192,1,198.45,USD,cancelled,retarget,C1045
+10800,2026-09-07 06:39:13,eu ,store,home,LM-HOME-154,1,83.2,USD,cancelled,spring_push,C1237
+10801,2026-09-07 20:20:00, us,app,beauty,LM-BEAU-158,1,48.69,USD,paid,retarget,C1067
+10802,2026-09-07 06:26:19,eu ,store,beauty,LM-BEAU-113,3,93.92,USD,paid,,C1810
+10803,2026-09-07 19:20:40, us,app,sports,LM-SPRT-142,1,66.82,USD,paid,retarget,C1650
+10804,2026-09-07 19:58:37, us,store,beauty,LM-BEAU-165,2,24.13,USD,paid,retarget,C1515
+10805,2026-09-07 09:15:47, us,app,home,LM-HOME-179,1,13.41,USD,paid,spring_push,C1061
+10806,2026-09-07 06:41:02,EU,store,grocery,LM-GROC-194,1,55.27,USD,paid,organic,C1137
+10807,2026-09-07 20:52:18,US,app,home,LM-HOME-193,3,191.8,USD,paid,organic,C1350
+10808,2026-09-07 07:51:43,EU,store,sports,LM-SPRT-166,1,218.39,USD,cancelled,organic,C1187
+10809,2026-09-07 06:03:40,EU,app,home,LM-HOME-116,1,209.87,USD,paid,spring_push,C1177
+10810,2026-09-07 23:29:19,EU,app,electronics,LM-ELEC-131,1,125.97,USD,paid,affiliate,C1180
